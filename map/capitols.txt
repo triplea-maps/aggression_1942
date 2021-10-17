@@ -1,0 +1,6 @@
+E.Germany  (1725,1000) 
+N.Italy  (1573,1383) 
+Britain  (1261,929) 
+M2 (2640,649) 
+United States  (197,549) 
+Rumania  (2133,1354) 
