@@ -83,7 +83,7 @@
 	<territory name="S2"/>
 	<territory name="S3"/>
 	<territory name="S4"/>
-	<territory name="Smolensk"/>
+	<territory name="Rzhev"/>
 	<territory name="S.Norway"/>
 	<territory name="Sverdlovsk"/>
 	<territory name="Sweden"/>
@@ -96,7 +96,7 @@
     <territory name="Tula"/>
 	<territory name="Tunisia"/>             	
     <territory name="Turkey"/>
-    <territory name="Tver"/>
+    <territory name="Kalinin"/>
 	<territory name="United States"/>
 	<territory name="Uralsk"/>
 	<territory name="Volgodonsk"/>
@@ -248,26 +248,26 @@
 	<connection t1="L1" t2="L3"/>
 	<connection t1="L1" t2="Sea Zone 19"/>
 	<connection t1="L2" t2="Karelia"/>
-	<connection t1="L2" t2="Tver"/>
+	<connection t1="L2" t2="Kalinin"/>
 	<connection t1="L2" t2="L4"/>
 	<connection t1="L3" t2="Novgorod"/>
 	<connection t1="L3" t2="L4"/>
-	<connection t1="L4" t2="Smolensk"/>
-	<connection t1="L4" t2="Tver"/>		
-	<connection t1="Karelia" t2="Tver"/>
-	<connection t1="Archangel" t2="Tver"/>
-	<connection t1="Vologda" t2="Tver"/>
-	<connection t1="M1" t2="Tver"/>
+	<connection t1="L4" t2="Rzhev"/>
+	<connection t1="L4" t2="Kalinin"/>		
+	<connection t1="Karelia" t2="Kalinin"/>
+	<connection t1="Archangel" t2="Kalinin"/>
+	<connection t1="Vologda" t2="Kalinin"/>
+	<connection t1="M1" t2="Kalinin"/>
 	<connection t1="M1" t2="M2"/>
 	<connection t1="M1" t2="M3"/>
 	<connection t1="M2" t2="M4"/>
 	<connection t1="M2" t2="Vologda"/>
 	<connection t1="M2" t2="Gorky"/>
 	<connection t1="M3" t2="M4"/>
-	<connection t1="M3" t2="Smolensk"/>
+	<connection t1="M3" t2="Rzhev"/>
 	<connection t1="M3" t2="Tula"/>
 	<connection t1="M4" t2="Ryazan"/>	
-	<connection t1="Smolensk" t2="Tver"/>
+	<connection t1="Rzhev" t2="Kalinin"/>
 	<connection t1="Archangel" t2="Vologda"/>
 	<connection t1="Siberia" t2="Vologda"/>
 	<connection t1="Gorky" t2="Vologda"/>
@@ -298,7 +298,7 @@
 	<connection t1="Baltic States" t2="Novgorod"/>
 	<connection t1="Novgorod" t2="NE.Poland"/>
 	<connection t1="Novgorod" t2="Belorussia"/>
-	<connection t1="Novgorod" t2="Smolensk"/>
+	<connection t1="Novgorod" t2="Rzhev"/>
 	<connection t1="Novgorod" t2="Sea Zone 19"/>
 	<connection t1="NE.Poland" t2="Prussia"/>
 	<connection t1="NE.Poland" t2="Poland"/>
@@ -316,7 +316,7 @@
 	<connection t1="Rumania" t2="Odessa"/>
 	<connection t1="Kharkov" t2="Odessa"/>
 	<connection t1="Kiev" t2="Odessa"/>
-	<connection t1="Belorussia" t2="Smolensk"/>
+	<connection t1="Belorussia" t2="Rzhev"/>
 	<connection t1="Belorussia" t2="Kursk"/>
 	<connection t1="Belorussia" t2="Kiev"/>
 	<connection t1="Kursk" t2="Kiev"/>
@@ -324,8 +324,8 @@
 	<connection t1="Kharkov" t2="Kursk"/>
 	<connection t1="Kharkov" t2="Voronezh"/>
 	<connection t1="Kharkov" t2="Rostov"/>
-	<connection t1="Smolensk" t2="Tula"/>
-	<connection t1="Smolensk" t2="Kursk"/>
+	<connection t1="Rzhev" t2="Tula"/>
+	<connection t1="Rzhev" t2="Kursk"/>
 	<connection t1="Tula" t2="Kursk"/>
 	<connection t1="Voronezh" t2="Kursk"/>
 	<connection t1="Tula" t2="Ryazan"/>
@@ -635,11 +635,11 @@
       <result resourceOrUnit="infantry" quantity="1"/>
     </productionRule>
     <productionRule name="buyArtillery">
-      <cost resource="PUs" quantity="40"/>
+      <cost resource="PUs" quantity="45"/>
       <result resourceOrUnit="artillery" quantity="1"/>
     </productionRule>
     <productionRule name="buyArmour">
-      <cost resource="PUs" quantity="50"/>
+      <cost resource="PUs" quantity="60"/>
       <result resourceOrUnit="armour" quantity="1"/>
     </productionRule>
     <productionRule name="buyFighter">
@@ -736,7 +736,7 @@
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
       <option name="canBlitz" value="false"/>
-      <option name="attack" value="2"/>
+      <option name="attack" value="3"/>
       <option name="defense" value="3"/>
       <option name="createsResourcesList" value="-5:PUs"/>
 	</attachment>
@@ -925,12 +925,12 @@
       <option name="unitProduction" value="1"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="W.Iran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
-      <option name="unitProduction" value="1"/>
+      <option name="production" value="5"/>
+      <option name="unitProduction" value="0"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="C.Iran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="20"/>
-      <option name="unitProduction" value="2"/>
+      <option name="production" value="5"/>
+      <option name="unitProduction" value="0"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="SW.Iran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="20"/>
@@ -941,8 +941,8 @@
       <option name="unitProduction" value="4"/>
 	</attachment>	
 	<attachment name="territoryAttachment" attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="5"/>
-      <option name="unitProduction" value="0"/>
+      <option name="production" value="10"/>
+      <option name="unitProduction" value="1"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="Iberia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -953,8 +953,8 @@
       <option name="unitProduction" value="2"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="Archangel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
-      <option name="unitProduction" value="3"/>
+      <option name="production" value="20"/>
+      <option name="unitProduction" value="2"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="Cyprus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -989,8 +989,8 @@
       <option name="unitProduction" value="0"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="40"/>
-      <option name="unitProduction" value="4"/>
+      <option name="production" value="60"/>
+      <option name="unitProduction" value="6"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="Corsica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -1027,8 +1027,8 @@
       <option name="unitProduction" value="0"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="S.Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
-      <option name="unitProduction" value="1"/>
+      <option name="production" value="5"/>
+      <option name="unitProduction" value="0"/>
 	</attachment>
     <attachment name="territoryAttachment" attachTo="Crete" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -1185,7 +1185,7 @@
       <option name="production" value="10"/>
       <option name="unitProduction" value="1"/>
 	</attachment>
-	<attachment name="territoryAttachment" attachTo="Smolensk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	<attachment name="territoryAttachment" attachTo="Rzhev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
       <option name="unitProduction" value="1"/>
 	</attachment>
@@ -1222,7 +1222,7 @@
       <option name="production" value="20"/>
       <option name="unitProduction" value="2"/>
 	</attachment>				
-	<attachment name="territoryAttachment" attachTo="Tver" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+	<attachment name="territoryAttachment" attachTo="Kalinin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
       <option name="unitProduction" value="0"/>
 	</attachment>
@@ -1301,8 +1301,8 @@
 	  <territoryOwner territory="L2" owner="Soviet_Union"/>
 	  <territoryOwner territory="L3" owner="Soviet_Union"/>
 	  <territoryOwner territory="L4" owner="Soviet_Union"/>
-	  <territoryOwner territory="Smolensk" owner="Soviet_Union"/>
-	  <territoryOwner territory="Tver" owner="Soviet_Union"/>
+	  <territoryOwner territory="Rzhev" owner="Soviet_Union"/>
+	  <territoryOwner territory="Kalinin" owner="Soviet_Union"/>
 	  <territoryOwner territory="Vologda" owner="Soviet_Union"/>
 	  <territoryOwner territory="Gorky" owner="Soviet_Union"/>
 	  <territoryOwner territory="Ryazan" owner="Soviet_Union"/>
@@ -1405,12 +1405,12 @@
 	  <unitPlacement unitType="infantry" territory="Karelia" quantity="3" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="Archangel" quantity="2" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="Siberia" quantity="5" owner="Soviet_Union"/>
-	  <unitPlacement unitType="infantry" territory="Tver" quantity="1" owner="Soviet_Union"/>
+	  <unitPlacement unitType="infantry" territory="Kalinin" quantity="1" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="L1" quantity="5" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="L2" quantity="1" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="L3" quantity="3" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="L4" quantity="1" owner="Soviet_Union"/>
-	  <unitPlacement unitType="infantry" territory="Smolensk" quantity="2" owner="Soviet_Union"/>
+	  <unitPlacement unitType="infantry" territory="Rzhev" quantity="2" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="M3" quantity="4" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="Tula" quantity="2" owner="Soviet_Union"/>
 	  <unitPlacement unitType="infantry" territory="Ryazan" quantity="1" owner="Soviet_Union"/>
