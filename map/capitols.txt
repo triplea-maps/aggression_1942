@@ -1,0 +1,6 @@
+Berlin  (2902,859) 
+Rome  (2838,1501) 
+Bucharest  (3814,1398)
+Moscow  (4364,504) 
+London (2080,761) 
+United States HQ (416,947) 
