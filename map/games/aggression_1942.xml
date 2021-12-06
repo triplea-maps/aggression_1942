@@ -1,0 +1,3424 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Aggression 1942" version="1.1"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <territory name="Leningrad"/>
+	<territory name="Oranienbaum"/>
+	<territory name="Ostashkov"/>
+	<territory name="Tikhvin"/>
+	<territory name="Volkhov"/>
+    <territory name="Olonets"/>
+    <territory name="Petrozavodsk"/>
+	<territory name="Onega"/>
+	<territory name="Velsk"/>
+	<territory name="Vologda"/>
+	<territory name="Kirov"/>
+	<territory name="Yaroslavl"/>
+	<territory name="Sergiyev"/>
+	<territory name="Vladimir"/>
+	<territory name="Kalinin"/>
+	<territory name="Kaluga"/>
+	<territory name="Arkhangelsk"/>
+	<territory name="Moscow"/>
+	<territory name="Ryazan"/>
+	<territory name="Tula"/>
+	<territory name="Bryansk"/>
+	<territory name="Tambov"/>
+	<territory name="Morshansk"/>
+	<territory name="Saransk"/>
+	<territory name="Kamenka"/>
+	<territory name="Penza"/>
+	<territory name="Balashov"/>
+	<territory name="Voronezh"/>
+	<territory name="Pavlovsk"/>
+	<territory name="Rostov"/>
+	<territory name="Kalach"/>
+	<territory name="Stalingrad"/>
+	<territory name="Volgodonsk"/>
+	<territory name="Elista"/>
+	<territory name="Krasnodar"/>
+	<territory name="Maikop"/>
+	<territory name="Pyatigorsk"/>
+    <territory name="Poti"/>
+	<territory name="Tiflis"/>
+	<territory name="Yerevan"/>
+	<territory name="Ganja"/>
+	<territory name="Baku"/>
+    <territory name="Tabriz"/>
+	<territory name="Ardabil"/>
+	<territory name="Zanjan"/>
+	<territory name="Makhachkala"/>
+	<territory name="Grozny"/>
+	<territory name="Aktau"/>
+	<territory name="Astrakhan"/>
+	<territory name="Yenotayevka"/>
+	<territory name="Sevastopol"/>
+	<territory name="Kerch"/>
+	<territory name="Isatay"/>
+	<territory name="Saratov"/>
+	<territory name="Volzhskiy"/>
+	<territory name="Akkystau"/>
+	<territory name="Guryev"/>
+	<territory name="Orenburg"/>
+	<territory name="Chapayevsk"/>
+	<territory name="Syzran"/>
+	<territory name="Ufa"/>
+	<territory name="Kuybyshev"/>
+	<territory name="Ulyanovsk"/>
+	<territory name="Cheboksary"/>
+	<territory name="Orshanka"/>
+	<territory name="Syktyvkar"/>
+	<territory name="Mezen"/>
+	<territory name="Medvezhka"/>
+	<territory name="Zuyevka"/>
+	<territory name="Baltasi"/>
+	<territory name="Kazan"/>
+	<territory name="Izhevsk"/>
+	<territory name="Perm"/>
+	<territory name="Yekaterinburg"/>
+	<territory name="Novouralsk"/>
+	<territory name="Pervouralsk"/>
+	<territory name="Igra"/>
+	<territory name="Kirovgrad"/>
+	<territory name="Serebryanka"/>
+	<territory name="Glazov"/>
+	<territory name="Falenki"/>
+	<territory name="Kushva"/>
+	<territory name="Serov"/>
+	<territory name="Berezniki"/>
+	<territory name="Omutninsk"/>
+	<territory name="Seyda"/>
+	<territory name="Varanday"/>
+	<territory name="Vortuka"/>
+	<territory name="Salekhard"/>
+	<territory name="Morocco"/>
+	<territory name="Oran"/>
+	<territory name="Algiers"/>
+	<territory name="Crete"/>	
+    <territory name="Athens"/>
+	<territory name="Thessaloniki"/>
+    <territory name="Kavala"/>
+    <territory name="Skopje"/>
+	<territory name="Sofia"/>
+	<territory name="Varna"/>
+	<territory name="Bucharest"/>
+	<territory name="Craiova"/>
+	<territory name="Timisoara"/>
+	<territory name="Cluj"/>
+	<territory name="Serbia"/>
+	<territory name="Zagreb"/>
+	<territory name="Hungary"/>
+	<territory name="Bacau"/>
+    <territory name="Transcarpathia"/>
+    <territory name="Novgorod"/>
+	<territory name="Andreapol"/>
+	<territory name="Smolensk"/>
+	<territory name="Rzhev"/>
+    <territory name="Orel"/>
+	<territory name="Kursk"/>
+    <territory name="Kharkov"/>
+    <territory name="Mariupol"/>
+	<territory name="Perekop"/>
+	<territory name="Crimea"/>
+	<territory name="Mykolaiv"/>
+	<territory name="Kiev"/>
+	<territory name="Odessa"/>
+	<territory name="Vinnytsia"/>
+	<territory name="Gomel"/>
+	<territory name="Zhytomyr"/>
+	<territory name="Ternopil"/>
+	<territory name="Lvov"/>
+    <territory name="Minsk"/>
+	<territory name="Pskov"/>
+	<territory name="Narva"/>
+	<territory name="Rezekne"/>
+	<territory name="Baranovichi"/>
+    <territory name="Tallinn"/>
+	<territory name="Riga"/>
+    <territory name="Bialystok"/>
+    <territory name="Brest"/>
+	<territory name="Aarhus"/>
+	<territory name="Copenhagen"/>
+	<territory name="Oslo"/>
+	<territory name="Bergen"/>
+	<territory name="Stavanger"/>
+	<territory name="Trondheim"/>
+	<territory name="Marseille"/>
+	<territory name="Toulouse"/>
+	<territory name="Limoges"/>
+	<territory name="Bordeaux"/>
+	<territory name="Lyon"/>
+	<territory name="Paris"/>
+    <territory name="Normandy"/>
+	<territory name="Amiens"/>
+	<territory name="Reims"/>
+	<territory name="Strasbourg"/>
+	<territory name="Antwerp"/>
+    <territory name="Ardennes"/>
+	<territory name="Rotterdam"/>
+    <territory name="Amsterdam"/>
+    <territory name="Lodz"/>
+	<territory name="Warsaw"/>
+	<territory name="Krakow"/>
+	<territory name="Slovakia"/>
+	<territory name="Danzig"/>
+	<territory name="Konigsberg"/>
+	<territory name="Salzburg"/>
+	<territory name="Vienna"/>
+	<territory name="Prague"/>
+	<territory name="Brno"/>
+	<territory name="Silesia"/>
+    <territory name="Pomerania"/>
+	<territory name="Rhineland"/>
+	<territory name="Stuttgart"/>
+	<territory name="Munich"/>
+	<territory name="Hamburg"/>
+	<territory name="Hanover"/>
+	<territory name="Rostock"/>
+    <territory name="Berlin"/>
+	<territory name="Trieste"/>
+	<territory name="Milan"/>
+	<territory name="Rome"/>
+	<territory name="Naples"/>
+	<territory name="Salerno"/>
+	<territory name="Sicily"/>
+	<territory name="Sardinia"/>
+	<territory name="Annaba"/>
+	<territory name="Tunis"/>
+	<territory name="Nice"/>
+	<territory name="Corsica"/>
+	<territory name="Tripoli"/>
+	<territory name="Ghadames"/>
+    <territory name="El Aghelia"/>
+	<territory name="Benghazi"/>
+	<territory name="Rhodes"/>
+	<territory name="Morea"/>
+	<territory name="Larissa"/>
+	<territory name="Albania"/>
+	<territory name="Montenegro"/>
+    <territory name="Dalmatia"/>	
+	<territory name="Glasgow"/>
+	<territory name="Manchester"/>
+    <territory name="London"/>
+	<territory name="Cardiff"/>
+	<territory name="Belfast"/>
+	<territory name="Gibraltar"/>
+	<territory name="Malta"/>
+    <territory name="Tobruk"/>
+	<territory name="Bardia"/>
+    <territory name="Cyprus"/>
+    <territory name="Sidi Barrani"/>
+	<territory name="El Alamein"/>
+	<territory name="Cairo"/>
+	<territory name="Sinai"/>
+	<territory name="Jerusalem"/>
+	<territory name="Beirut"/>
+	<territory name="Latakia"/>
+	<territory name="Zor"/>
+	<territory name="Damascus"/>
+	<territory name="Amman"/>
+	<territory name="Mosul"/>
+    <territory name="Tikrit"/>
+	<territory name="Baghdad"/>
+	<territory name="Ramadi"/>
+	<territory name="Karbala"/>
+	<territory name="Kut"/>
+	<territory name="Najaf"/>
+	<territory name="Basra"/>
+    <territory name="Kuwait"/>
+	<territory name="Hamedan"/>
+	<territory name="Karaj"/>
+	<territory name="Kashan"/>
+	<territory name="Abadan"/>
+	<territory name="Canada HQ"/>
+	<territory name="United States HQ"/>
+	<territory name="Ireland"/>
+	<territory name="Spain"/>
+	<territory name="Portugal"/>
+	<territory name="Switzerland"/>
+	<territory name="Sahara"/>
+	<territory name="Sweden"/>
+	<territory name="Finland"/>
+    <territory name="Turkey"/>
+	<territory name="Arabia"/>
+	<territory name="Sea Zone 1" water="true"/>
+	<territory name="Sea Zone 2" water="true"/>
+	<territory name="Sea Zone 3" water="true"/>
+    <territory name="Sea Zone 4" water="true"/>
+	<territory name="Sea Zone 5" water="true"/>
+	<territory name="Sea Zone 6" water="true"/>
+	<territory name="Sea Zone 7" water="true"/>
+	<territory name="Sea Zone 8" water="true"/>
+	<territory name="Sea Zone 9" water="true"/>
+	<territory name="Sea Zone 10" water="true"/>
+	<territory name="Sea Zone 11" water="true"/>
+	<territory name="Sea Zone 12" water="true"/>
+	<territory name="Sea Zone 13" water="true"/>
+    <territory name="Sea Zone 14" water="true"/>
+	<territory name="Sea Zone 15" water="true"/>
+	<territory name="Sea Zone 16" water="true"/>
+	<territory name="Sea Zone 17" water="true"/>
+	<territory name="Sea Zone 18" water="true"/>
+	<territory name="Sea Zone 19" water="true"/>
+	<territory name="Sea Zone 20" water="true"/>
+	<territory name="Sea Zone 21" water="true"/>
+	<territory name="Sea Zone 22" water="true"/>
+	<territory name="Sea Zone 23" water="true"/>
+    <territory name="Sea Zone 24" water="true"/>
+	<territory name="Sea Zone 25" water="true"/>
+	<territory name="Sea Zone 26" water="true"/>
+	<territory name="Sea Zone 27" water="true"/>
+    <territory name="Sea Zone 28" water="true"/>
+    <territory name="Sea Zone 29" water="true"/>
+    <territory name="Sea Zone 30" water="true"/>
+    <territory name="Sea Zone 31" water="true"/>
+	<territory name="Sea Zone 32" water="true"/>
+	<territory name="Sea Zone 33" water="true"/>
+	<territory name="Sea Zone 34" water="true"/>
+	<territory name="Sea Zone 35" water="true"/>
+	<territory name="Sea Zone 36" water="true"/>
+	<territory name="Sea Zone 37" water="true"/>
+	<territory name="Sea Zone 38" water="true"/>
+	<territory name="Sea Zone 39" water="true"/>
+    <territory name="Sea Zone 40" water="true"/>
+    <territory name="Sea Zone 41" water="true"/>
+    <territory name="Sea Zone 42" water="true"/>
+    <territory name="Sea Zone 43" water="true"/>
+    <territory name="Sea Zone 44" water="true"/>
+    <territory name="Sea Zone 45" water="true"/>
+    <territory name="Sea Zone 46" water="true"/>
+	<territory name="Sea Zone 47" water="true"/>
+	<territory name="Sea Zone 48" water="true"/>
+	<territory name="Sea Zone 49" water="true"/>
+    <territory name="Sea Zone 50" water="true"/>
+	<territory name="Sea Zone 51" water="true"/>
+	<territory name="Sea Zone 52" water="true"/>
+	<territory name="Sea Zone 53" water="true"/>
+	<territory name="Sea Zone 54" water="true"/>
+	<territory name="Sea Zone 55" water="true"/>
+	<territory name="Sea Zone 56" water="true"/>
+	<territory name="Sea Zone 57" water="true"/>
+	<territory name="Sea Zone 58" water="true"/>
+	<territory name="Sea Zone 59" water="true"/>
+    <territory name="Sea Zone 60" water="true"/>
+	<territory name="Sea Zone 61" water="true"/>
+	<territory name="Sea Zone 62" water="true"/>
+	<territory name="Sea Zone 63" water="true"/>
+	<territory name="Sea Zone 64" water="true"/>
+	<territory name="Sea Zone 65" water="true"/>
+	<territory name="Sea Zone 66" water="true"/>
+	<territory name="Sea Zone 67" water="true"/>
+	<territory name="Sea Zone 68" water="true"/>
+	<territory name="Sea Zone 69" water="true"/>
+    <territory name="Sea Zone 70" water="true"/>
+	<territory name="Sea Zone 71" water="true"/>
+	<territory name="Sea Zone 72" water="true"/>
+	<territory name="Sea Zone 73" water="true"/>
+    <territory name="Sea Zone 74" water="true"/>
+    <territory name="Sea Zone 75" water="true"/>
+    <territory name="Sea Zone 76" water="true"/>
+    <territory name="Sea Zone 77" water="true"/>
+	<territory name="Sea Zone 78" water="true"/>
+	<territory name="Sea Zone 79" water="true"/>
+	<territory name="Sea Zone 80" water="true"/>
+	<territory name="Sea Zone 81" water="true"/>
+	<territory name="Sea Zone 82" water="true"/>
+	<territory name="Sea Zone 83" water="true"/>
+	<territory name="Sea Zone 84" water="true"/>
+	<territory name="Sea Zone 85" water="true"/>
+    <territory name="Sea Zone 86" water="true"/>
+    <territory name="Sea Zone 87" water="true"/>
+    <territory name="Sea Zone 88" water="true"/>
+    <territory name="Sea Zone 89" water="true"/>
+    <territory name="Sea Zone 90" water="true"/>
+    <territory name="Sea Zone 91" water="true"/>
+    <territory name="Sea Zone 92" water="true"/>
+	<territory name="Sea Zone 93" water="true"/>
+    <territory name="Sea Zone 94" water="true"/>
+	<territory name="Sea Zone 95" water="true"/>
+	<territory name="Sea Zone 96" water="true"/>
+	<territory name="Sea Zone 97" water="true"/>
+	<territory name="Sea Zone 98" water="true"/>
+	<territory name="Sea Zone 99" water="true"/>
+	<territory name="Sea Zone 100" water="true"/>
+	<territory name="Sea Zone 101" water="true"/>
+	<territory name="Sea Zone 102" water="true"/>
+    <territory name="Sea Zone 103" water="true"/>
+    <territory name="Sea Zone 104" water="true"/>
+    <territory name="Sea Zone 105" water="true"/>
+    <territory name="Sea Zone 106" water="true"/>
+    <territory name="Sea Zone 107" water="true"/>
+    <territory name="Sea Zone 108" water="true"/>
+    <territory name="Sea Zone 109" water="true"/>
+	<territory name="Sea Zone 110" water="true"/>
+	<territory name="Sea Zone 111" water="true"/>
+	<territory name="Sea Zone 112" water="true"/>
+    <territory name="Sea Zone 113" water="true"/>
+	<territory name="Sea Zone 114" water="true"/>
+	<territory name="Sea Zone 115" water="true"/>
+	<territory name="Sea Zone 116" water="true"/>
+	<territory name="Sea Zone 117" water="true"/>
+	<territory name="Sea Zone 118" water="true"/>
+	<territory name="Sea Zone 119" water="true"/>
+	<territory name="Sea Zone 120" water="true"/>
+	<territory name="Sea Zone 121" water="true"/>
+	<territory name="Sea Zone 122" water="true"/>
+    <territory name="Sea Zone 123" water="true"/>
+	<territory name="Sea Zone 124" water="true"/>
+	<territory name="Sea Zone 125" water="true"/>
+	<territory name="Sea Zone 126" water="true"/>
+	<territory name="Sea Zone 127" water="true"/>
+	<territory name="Sea Zone 128" water="true"/>
+	<territory name="Sea Zone 129" water="true"/>
+	<territory name="Sea Zone 130" water="true"/>
+	<territory name="Sea Zone 131" water="true"/>
+	<territory name="Sea Zone 132" water="true"/>
+    <territory name="Sea Zone 133" water="true"/>
+	<territory name="Sea Zone 134" water="true"/>
+	<territory name="Sea Zone 135" water="true"/>
+	<territory name="Sea Zone 136" water="true"/>
+    <territory name="Sea Zone 137" water="true"/>
+    <territory name="Sea Zone 138" water="true"/>
+    <territory name="Sea Zone 139" water="true"/>
+    <territory name="Sea Zone 140" water="true"/>
+	<territory name="Sea Zone 141" water="true"/>
+	<territory name="Sea Zone 142" water="true"/>
+	<territory name="Sea Zone 143" water="true"/>
+	<territory name="Sea Zone 144" water="true"/>
+	<territory name="Sea Zone 145" water="true"/>
+	<territory name="Sea Zone 146" water="true"/>
+	<territory name="Sea Zone 147" water="true"/>
+	<territory name="Sea Zone 148" water="true"/>
+    <territory name="Sea Zone 149" water="true"/>
+    <territory name="Sea Zone 150" water="true"/>
+    <territory name="Sea Zone 151" water="true"/>
+    <territory name="Sea Zone 152" water="true"/>
+    <territory name="Sea Zone 153" water="true"/>
+    <territory name="Sea Zone 154" water="true"/>
+    <territory name="Sea Zone 155" water="true"/>
+	<territory name="Sea Zone 156" water="true"/>
+	<territory name="Sea Zone 157" water="true"/>
+	<territory name="Sea Zone 158" water="true"/>
+    <territory name="Sea Zone 159" water="true"/>
+    <territory name="Sea Zone 160" water="true"/>
+    <territory name="Sea Zone 161" water="true"/>
+    <territory name="Sea Zone 162" water="true"/>
+    <territory name="Sea Zone 163" water="true"/>
+    <territory name="Sea Zone 164" water="true"/>
+    <territory name="Sea Zone 165" water="true"/>
+	<connection t1="Sea Zone 1" t2="Sea Zone 2"/>
+	<connection t1="Sea Zone 1" t2="Sea Zone 13"/>
+	<connection t1="Sea Zone 2" t2="Sea Zone 13"/>
+	<connection t1="Sea Zone 2" t2="Sea Zone 14"/>
+	<connection t1="Sea Zone 2" t2="Sea Zone 3"/>
+	<connection t1="Sea Zone 3" t2="Sea Zone 14"/>
+	<connection t1="Sea Zone 3" t2="Sea Zone 15"/>
+	<connection t1="Sea Zone 3" t2="Sea Zone 4"/>
+	<connection t1="Sea Zone 4" t2="Sea Zone 15"/>
+	<connection t1="Sea Zone 4" t2="Sea Zone 16"/>
+	<connection t1="Sea Zone 4" t2="Sea Zone 5"/>
+	<connection t1="Sea Zone 5" t2="Sea Zone 16"/>
+	<connection t1="Sea Zone 5" t2="Sea Zone 17"/>
+	<connection t1="Sea Zone 5" t2="Sea Zone 6"/>
+    <connection t1="Sea Zone 6" t2="Sea Zone 17"/>
+	<connection t1="Sea Zone 6" t2="Sea Zone 18"/>
+	<connection t1="Sea Zone 6" t2="Sea Zone 7"/>
+	<connection t1="Sea Zone 7" t2="Sea Zone 18"/>
+	<connection t1="Sea Zone 7" t2="Sea Zone 19"/>
+    <connection t1="Sea Zone 7" t2="Sea Zone 8"/>
+    <connection t1="Sea Zone 8" t2="Sea Zone 19"/>
+    <connection t1="Sea Zone 8" t2="Sea Zone 20"/>
+    <connection t1="Sea Zone 8" t2="Sea Zone 9"/>
+    <connection t1="Sea Zone 9" t2="Sea Zone 20"/>
+    <connection t1="Sea Zone 9" t2="Sea Zone 21"/>
+    <connection t1="Sea Zone 9" t2="Sea Zone 10"/>
+	<connection t1="Sea Zone 10" t2="Sea Zone 21"/>
+	<connection t1="Sea Zone 10" t2="Sea Zone 22"/>
+	<connection t1="Sea Zone 10" t2="Sea Zone 11"/>
+    <connection t1="Sea Zone 11" t2="Sea Zone 22"/>
+    <connection t1="Sea Zone 12" t2="Sea Zone 23"/>
+	<connection t1="Sea Zone 13" t2="Sea Zone 14"/>
+	<connection t1="Sea Zone 13" t2="Sea Zone 27"/>
+	<connection t1="Sea Zone 13" t2="Sea Zone 28"/>
+	<connection t1="Sea Zone 14" t2="Sea Zone 28"/>
+	<connection t1="Sea Zone 14" t2="Sea Zone 29"/>
+	<connection t1="Sea Zone 14" t2="Sea Zone 15"/>
+	<connection t1="Sea Zone 15" t2="Sea Zone 29"/>
+	<connection t1="Sea Zone 15" t2="Sea Zone 30"/>
+	<connection t1="Sea Zone 15" t2="Sea Zone 16"/>
+	<connection t1="Sea Zone 16" t2="Sea Zone 30"/>
+	<connection t1="Sea Zone 16" t2="Sea Zone 31"/>
+	<connection t1="Sea Zone 16" t2="Sea Zone 17"/>
+	<connection t1="Sea Zone 17" t2="Sea Zone 31"/>
+    <connection t1="Sea Zone 17" t2="Sea Zone 32"/>
+	<connection t1="Sea Zone 17" t2="Sea Zone 18"/>
+	<connection t1="Sea Zone 18" t2="Sea Zone 32"/>
+	<connection t1="Sea Zone 18" t2="Sea Zone 33"/>
+	<connection t1="Sea Zone 18" t2="Sea Zone 19"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 33"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 34"/>
+    <connection t1="Sea Zone 19" t2="Sea Zone 20"/>
+    <connection t1="Sea Zone 20" t2="Sea Zone 34"/>
+    <connection t1="Sea Zone 20" t2="Sea Zone 35"/>
+    <connection t1="Sea Zone 20" t2="Sea Zone 21"/>
+    <connection t1="Sea Zone 21" t2="Sea Zone 35"/>
+	<connection t1="Sea Zone 21" t2="Sea Zone 36"/>
+	<connection t1="Sea Zone 21" t2="Sea Zone 22"/>
+	<connection t1="Sea Zone 22" t2="Sea Zone 36"/>
+	<connection t1="Sea Zone 22" t2="Sea Zone 37"/>
+    <connection t1="Sea Zone 23" t2="Sea Zone 24"/>
+	<connection t1="Sea Zone 24" t2="Sea Zone 39"/>
+	<connection t1="Sea Zone 24" t2="Sea Zone 40"/>
+	<connection t1="Sea Zone 24" t2="Sea Zone 25"/>
+	<connection t1="Sea Zone 27" t2="Sea Zone 28"/>
+	<connection t1="Sea Zone 27" t2="Sea Zone 41"/>
+	<connection t1="Sea Zone 28" t2="Sea Zone 41"/>
+	<connection t1="Sea Zone 28" t2="Sea Zone 29"/>
+	<connection t1="Sea Zone 29" t2="Sea Zone 42"/>
+	<connection t1="Sea Zone 29" t2="Sea Zone 30"/>
+	<connection t1="Sea Zone 30" t2="Sea Zone 42"/>
+	<connection t1="Sea Zone 30" t2="Sea Zone 43"/>
+	<connection t1="Sea Zone 30" t2="Sea Zone 31"/>
+	<connection t1="Sea Zone 31" t2="Sea Zone 43"/>
+	<connection t1="Sea Zone 31" t2="Sea Zone 44"/>
+    <connection t1="Sea Zone 31" t2="Sea Zone 32"/>
+	<connection t1="Sea Zone 32" t2="Sea Zone 44"/>
+	<connection t1="Sea Zone 32" t2="Sea Zone 45"/>
+	<connection t1="Sea Zone 32" t2="Sea Zone 33"/>
+	<connection t1="Sea Zone 33" t2="Sea Zone 45"/>
+    <connection t1="Sea Zone 33" t2="Sea Zone 46"/>
+    <connection t1="Sea Zone 33" t2="Sea Zone 34"/>
+    <connection t1="Sea Zone 34" t2="Sea Zone 46"/>
+    <connection t1="Sea Zone 34" t2="Sea Zone 35"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 47"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 48"/>
+    <connection t1="Sea Zone 35" t2="Sea Zone 36"/>
+	<connection t1="Sea Zone 36" t2="Sea Zone 48"/>
+	<connection t1="Sea Zone 36" t2="Sea Zone 49"/>
+	<connection t1="Sea Zone 36" t2="Sea Zone 37"/>
+	<connection t1="Sea Zone 37" t2="Sea Zone 38"/>
+    <connection t1="Sea Zone 37" t2="Sea Zone 49"/>
+	<connection t1="Sea Zone 38" t2="Sea Zone 50"/>
+	<connection t1="Sea Zone 39" t2="Sea Zone 51"/>
+	<connection t1="Sea Zone 39" t2="Sea Zone 52"/>
+	<connection t1="Sea Zone 39" t2="Sea Zone 40"/>
+	<connection t1="Sea Zone 40" t2="Sea Zone 52"/>
+	<connection t1="Sea Zone 41" t2="Sea Zone 53"/>
+	<connection t1="Sea Zone 41" t2="Sea Zone 54"/>
+	<connection t1="Sea Zone 42" t2="Sea Zone 55"/>
+	<connection t1="Sea Zone 42" t2="Sea Zone 56"/>
+	<connection t1="Sea Zone 42" t2="Sea Zone 43"/>
+	<connection t1="Sea Zone 43" t2="Sea Zone 56"/>
+	<connection t1="Sea Zone 43" t2="Sea Zone 57"/>
+	<connection t1="Sea Zone 43" t2="Sea Zone 44"/>
+	<connection t1="Sea Zone 44" t2="Sea Zone 57"/>
+    <connection t1="Sea Zone 44" t2="Sea Zone 58"/>
+	<connection t1="Sea Zone 44" t2="Sea Zone 45"/>
+	<connection t1="Sea Zone 45" t2="Sea Zone 58"/>
+	<connection t1="Sea Zone 45" t2="Sea Zone 59"/>
+	<connection t1="Sea Zone 45" t2="Sea Zone 46"/>
+    <connection t1="Sea Zone 46" t2="Sea Zone 60"/>
+    <connection t1="Sea Zone 47" t2="Sea Zone 48"/>
+    <connection t1="Sea Zone 47" t2="Sea Zone 61"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 61"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 62"/>
+    <connection t1="Sea Zone 48" t2="Sea Zone 49"/>
+    <connection t1="Sea Zone 49" t2="Sea Zone 62"/>
+	<connection t1="Sea Zone 49" t2="Sea Zone 63"/>
+	<connection t1="Sea Zone 50" t2="Sea Zone 64"/>
+	<connection t1="Sea Zone 51" t2="Sea Zone 52"/>
+	<connection t1="Sea Zone 51" t2="Sea Zone 64"/>
+    <connection t1="Sea Zone 51" t2="Sea Zone 65"/>
+	<connection t1="Sea Zone 52" t2="Sea Zone 65"/>
+	<connection t1="Sea Zone 53" t2="Sea Zone 54"/>
+	<connection t1="Sea Zone 53" t2="Sea Zone 66"/>
+	<connection t1="Sea Zone 54" t2="Sea Zone 55"/>
+	<connection t1="Sea Zone 54" t2="Sea Zone 66"/>
+	<connection t1="Sea Zone 55" t2="Sea Zone 56"/>
+	<connection t1="Sea Zone 55" t2="Sea Zone 67"/>
+	<connection t1="Sea Zone 56" t2="Sea Zone 57"/>
+	<connection t1="Sea Zone 56" t2="Sea Zone 67"/>
+	<connection t1="Sea Zone 56" t2="Sea Zone 68"/>
+	<connection t1="Sea Zone 57" t2="Sea Zone 58"/>
+	<connection t1="Sea Zone 57" t2="Sea Zone 68"/>
+	<connection t1="Sea Zone 57" t2="Sea Zone 69"/>
+	<connection t1="Sea Zone 58" t2="Sea Zone 59"/>
+    <connection t1="Sea Zone 58" t2="Sea Zone 69"/>
+	<connection t1="Sea Zone 58" t2="Sea Zone 70"/>
+	<connection t1="Sea Zone 59" t2="Sea Zone 60"/>
+	<connection t1="Sea Zone 59" t2="Sea Zone 70"/>
+	<connection t1="Sea Zone 59" t2="Sea Zone 71"/>
+    <connection t1="Sea Zone 60" t2="Sea Zone 71"/>
+    <connection t1="Sea Zone 61" t2="Sea Zone 62"/>
+    <connection t1="Sea Zone 61" t2="Sea Zone 76"/>
+    <connection t1="Sea Zone 62" t2="Sea Zone 63"/>
+    <connection t1="Sea Zone 62" t2="Sea Zone 76"/>
+    <connection t1="Sea Zone 62" t2="Sea Zone 77"/>
+    <connection t1="Sea Zone 64" t2="Sea Zone 65"/>
+	<connection t1="Sea Zone 66" t2="Sea Zone 78"/>
+	<connection t1="Sea Zone 66" t2="Sea Zone 79"/>
+	<connection t1="Sea Zone 67" t2="Sea Zone 68"/>
+	<connection t1="Sea Zone 67" t2="Sea Zone 80"/>
+    <connection t1="Sea Zone 67" t2="Sea Zone 81"/>
+	<connection t1="Sea Zone 68" t2="Sea Zone 69"/>
+	<connection t1="Sea Zone 68" t2="Sea Zone 81"/>
+	<connection t1="Sea Zone 68" t2="Sea Zone 82"/>
+	<connection t1="Sea Zone 69" t2="Sea Zone 70"/>
+	<connection t1="Sea Zone 69" t2="Sea Zone 82"/>
+	<connection t1="Sea Zone 69" t2="Sea Zone 83"/>
+	<connection t1="Sea Zone 70" t2="Sea Zone 71"/>
+	<connection t1="Sea Zone 70" t2="Sea Zone 83"/>
+	<connection t1="Sea Zone 70" t2="Sea Zone 84"/>
+	<connection t1="Sea Zone 71" t2="Sea Zone 72"/>
+	<connection t1="Sea Zone 71" t2="Sea Zone 73"/>
+	<connection t1="Sea Zone 71" t2="Sea Zone 84"/>
+	<connection t1="Sea Zone 71" t2="Sea Zone 85"/>
+	<connection t1="Sea Zone 72" t2="Sea Zone 73"/>
+    <connection t1="Sea Zone 72" t2="Sea Zone 74"/>
+	<connection t1="Sea Zone 72" t2="Sea Zone 75"/>
+	<connection t1="Sea Zone 73" t2="Sea Zone 75"/>
+	<connection t1="Sea Zone 73" t2="Sea Zone 85"/>
+	<connection t1="Sea Zone 74" t2="Sea Zone 75"/>
+    <connection t1="Sea Zone 74" t2="Sea Zone 76"/>
+    <connection t1="Sea Zone 75" t2="Sea Zone 76"/>
+    <connection t1="Sea Zone 76" t2="Sea Zone 77"/>
+    <connection t1="Sea Zone 78" t2="Sea Zone 79"/>
+    <connection t1="Sea Zone 78" t2="Sea Zone 86"/>
+    <connection t1="Sea Zone 79" t2="Sea Zone 80"/>
+    <connection t1="Sea Zone 79" t2="Sea Zone 86"/>
+	<connection t1="Sea Zone 79" t2="Sea Zone 87"/>
+	<connection t1="Sea Zone 80" t2="Sea Zone 81"/>
+	<connection t1="Sea Zone 80" t2="Sea Zone 87"/>
+	<connection t1="Sea Zone 80" t2="Sea Zone 88"/>
+    <connection t1="Sea Zone 81" t2="Sea Zone 82"/>
+	<connection t1="Sea Zone 81" t2="Sea Zone 88"/>
+	<connection t1="Sea Zone 81" t2="Sea Zone 89"/>
+    <connection t1="Sea Zone 82" t2="Sea Zone 83"/>
+    <connection t1="Sea Zone 82" t2="Sea Zone 89"/>
+	<connection t1="Sea Zone 82" t2="Sea Zone 90"/>
+	<connection t1="Sea Zone 83" t2="Sea Zone 84"/>
+	<connection t1="Sea Zone 83" t2="Sea Zone 90"/>
+	<connection t1="Sea Zone 83" t2="Sea Zone 91"/>
+	<connection t1="Sea Zone 84" t2="Sea Zone 85"/>
+	<connection t1="Sea Zone 84" t2="Sea Zone 91"/>
+	<connection t1="Sea Zone 84" t2="Sea Zone 92"/>
+	<connection t1="Sea Zone 85" t2="Sea Zone 92"/>
+	<connection t1="Sea Zone 85" t2="Sea Zone 93"/>
+	<connection t1="Sea Zone 86" t2="Sea Zone 87"/>
+	<connection t1="Sea Zone 86" t2="Sea Zone 94"/>
+	<connection t1="Sea Zone 86" t2="Sea Zone 95"/>
+	<connection t1="Sea Zone 87" t2="Sea Zone 88"/>
+    <connection t1="Sea Zone 87" t2="Sea Zone 95"/>
+	<connection t1="Sea Zone 87" t2="Sea Zone 96"/>
+	<connection t1="Sea Zone 88" t2="Sea Zone 89"/>
+	<connection t1="Sea Zone 88" t2="Sea Zone 96"/>
+	<connection t1="Sea Zone 88" t2="Sea Zone 97"/>
+    <connection t1="Sea Zone 89" t2="Sea Zone 90"/>
+    <connection t1="Sea Zone 89" t2="Sea Zone 97"/>
+    <connection t1="Sea Zone 89" t2="Sea Zone 98"/>
+    <connection t1="Sea Zone 90" t2="Sea Zone 91"/>
+    <connection t1="Sea Zone 90" t2="Sea Zone 98"/>
+    <connection t1="Sea Zone 90" t2="Sea Zone 99"/>
+    <connection t1="Sea Zone 91" t2="Sea Zone 92"/>
+	<connection t1="Sea Zone 91" t2="Sea Zone 99"/>
+	<connection t1="Sea Zone 92" t2="Sea Zone 93"/>
+	<connection t1="Sea Zone 94" t2="Sea Zone 95"/>
+	<connection t1="Sea Zone 94" t2="Sea Zone 100"/>
+    <connection t1="Sea Zone 95" t2="Sea Zone 96"/>	
+	<connection t1="Sea Zone 95" t2="Sea Zone 100"/>
+	<connection t1="Sea Zone 95" t2="Sea Zone 101"/>
+	<connection t1="Sea Zone 96" t2="Sea Zone 97"/>
+	<connection t1="Sea Zone 96" t2="Sea Zone 101"/>
+	<connection t1="Sea Zone 96" t2="Sea Zone 102"/>
+	<connection t1="Sea Zone 97" t2="Sea Zone 98"/>
+	<connection t1="Sea Zone 97" t2="Sea Zone 102"/>
+	<connection t1="Sea Zone 97" t2="Sea Zone 103"/>
+	<connection t1="Sea Zone 98" t2="Sea Zone 99"/>
+	<connection t1="Sea Zone 98" t2="Sea Zone 103"/>
+	<connection t1="Sea Zone 98" t2="Sea Zone 104"/>
+	<connection t1="Sea Zone 99" t2="Sea Zone 104"/>
+	<connection t1="Sea Zone 99" t2="Sea Zone 105"/>
+	<connection t1="Sea Zone 100" t2="Sea Zone 101"/>
+    <connection t1="Sea Zone 100" t2="Sea Zone 106"/>
+	<connection t1="Sea Zone 100" t2="Sea Zone 107"/>
+	<connection t1="Sea Zone 101" t2="Sea Zone 102"/>
+	<connection t1="Sea Zone 101" t2="Sea Zone 107"/>
+	<connection t1="Sea Zone 101" t2="Sea Zone 108"/>
+    <connection t1="Sea Zone 102" t2="Sea Zone 103"/>
+    <connection t1="Sea Zone 102" t2="Sea Zone 108"/>
+    <connection t1="Sea Zone 102" t2="Sea Zone 109"/>
+    <connection t1="Sea Zone 103" t2="Sea Zone 104"/>
+    <connection t1="Sea Zone 103" t2="Sea Zone 109"/>
+    <connection t1="Sea Zone 103" t2="Sea Zone 110"/>
+    <connection t1="Sea Zone 104" t2="Sea Zone 105"/>
+	<connection t1="Sea Zone 104" t2="Sea Zone 110"/>
+	<connection t1="Sea Zone 104" t2="Sea Zone 111"/>
+	<connection t1="Sea Zone 105" t2="Sea Zone 111"/>
+	<connection t1="Sea Zone 105" t2="Sea Zone 112"/>
+    <connection t1="Sea Zone 106" t2="Sea Zone 107"/>
+	<connection t1="Sea Zone 106" t2="Sea Zone 113"/>
+	<connection t1="Sea Zone 107" t2="Sea Zone 108"/>
+	<connection t1="Sea Zone 107" t2="Sea Zone 113"/>
+	<connection t1="Sea Zone 107" t2="Sea Zone 114"/>
+	<connection t1="Sea Zone 108" t2="Sea Zone 109"/>
+	<connection t1="Sea Zone 108" t2="Sea Zone 114"/>
+	<connection t1="Sea Zone 108" t2="Sea Zone 115"/>
+	<connection t1="Sea Zone 109" t2="Sea Zone 110"/>
+	<connection t1="Sea Zone 109" t2="Sea Zone 115"/>
+	<connection t1="Sea Zone 109" t2="Sea Zone 116"/>
+	<connection t1="Sea Zone 110" t2="Sea Zone 111"/>
+	<connection t1="Sea Zone 110" t2="Sea Zone 116"/>
+	<connection t1="Sea Zone 110" t2="Sea Zone 117"/>
+	<connection t1="Sea Zone 111" t2="Sea Zone 112"/>
+    <connection t1="Sea Zone 111" t2="Sea Zone 117"/>
+	<connection t1="Sea Zone 111" t2="Sea Zone 118"/>
+	<connection t1="Sea Zone 112" t2="Sea Zone 118"/>
+	<connection t1="Sea Zone 112" t2="Sea Zone 125"/>
+	<connection t1="Sea Zone 113" t2="Sea Zone 114"/>
+    <connection t1="Sea Zone 113" t2="Sea Zone 119"/>
+    <connection t1="Sea Zone 113" t2="Sea Zone 120"/>
+    <connection t1="Sea Zone 114" t2="Sea Zone 115"/>
+    <connection t1="Sea Zone 114" t2="Sea Zone 120"/>
+    <connection t1="Sea Zone 114" t2="Sea Zone 121"/>
+    <connection t1="Sea Zone 115" t2="Sea Zone 116"/>
+    <connection t1="Sea Zone 115" t2="Sea Zone 121"/>
+	<connection t1="Sea Zone 115" t2="Sea Zone 122"/>
+	<connection t1="Sea Zone 116" t2="Sea Zone 117"/>
+	<connection t1="Sea Zone 116" t2="Sea Zone 122"/>
+	<connection t1="Sea Zone 116" t2="Sea Zone 123"/>
+    <connection t1="Sea Zone 117" t2="Sea Zone 118"/>
+	<connection t1="Sea Zone 117" t2="Sea Zone 123"/>
+	<connection t1="Sea Zone 117" t2="Sea Zone 124"/>
+	<connection t1="Sea Zone 118" t2="Sea Zone 124"/>
+	<connection t1="Sea Zone 119" t2="Sea Zone 120"/>
+	<connection t1="Sea Zone 120" t2="Sea Zone 121"/>
+	<connection t1="Sea Zone 121" t2="Sea Zone 122"/>
+	<connection t1="Sea Zone 122" t2="Sea Zone 123"/>
+	<connection t1="Sea Zone 123" t2="Sea Zone 124"/>
+	<connection t1="Sea Zone 125" t2="Sea Zone 127"/>
+	<connection t1="Sea Zone 125" t2="Sea Zone 128"/>
+	<connection t1="Sea Zone 126" t2="Sea Zone 127"/>
+	<connection t1="Sea Zone 126" t2="Sea Zone 129"/>
+	<connection t1="Sea Zone 126" t2="Sea Zone 130"/>
+	<connection t1="Sea Zone 127" t2="Sea Zone 128"/>
+    <connection t1="Sea Zone 127" t2="Sea Zone 130"/>
+	<connection t1="Sea Zone 128" t2="Sea Zone 130"/>
+	<connection t1="Sea Zone 128" t2="Sea Zone 132"/>
+	<connection t1="Sea Zone 129" t2="Sea Zone 130"/>
+	<connection t1="Sea Zone 129" t2="Sea Zone 131"/>
+    <connection t1="Sea Zone 130" t2="Sea Zone 131"/>
+    <connection t1="Sea Zone 130" t2="Sea Zone 132"/>
+    <connection t1="Sea Zone 131" t2="Sea Zone 132"/>
+    <connection t1="Sea Zone 131" t2="Sea Zone 136"/>
+    <connection t1="Sea Zone 132" t2="Sea Zone 136"/>
+    <connection t1="Sea Zone 132" t2="Sea Zone 137"/>
+    <connection t1="Sea Zone 133" t2="Sea Zone 134"/>
+	<connection t1="Sea Zone 134" t2="Sea Zone 135"/>
+	<connection t1="Sea Zone 135" t2="Sea Zone 136"/>
+	<connection t1="Sea Zone 135" t2="Sea Zone 138"/>
+	<connection t1="Sea Zone 136" t2="Sea Zone 137"/>
+    <connection t1="Sea Zone 136" t2="Sea Zone 138"/>
+	<connection t1="Sea Zone 136" t2="Sea Zone 139"/>
+	<connection t1="Sea Zone 137" t2="Sea Zone 139"/>
+	<connection t1="Sea Zone 137" t2="Sea Zone 140"/>
+	<connection t1="Sea Zone 138" t2="Sea Zone 142"/>
+	<connection t1="Sea Zone 138" t2="Sea Zone 143"/>
+	<connection t1="Sea Zone 138" t2="Sea Zone 139"/>
+	<connection t1="Sea Zone 138" t2="Sea Zone 141"/>
+	<connection t1="Sea Zone 139" t2="Sea Zone 140"/>
+	<connection t1="Sea Zone 139" t2="Sea Zone 141"/>
+	<connection t1="Sea Zone 141" t2="Sea Zone 143"/>
+	<connection t1="Sea Zone 141" t2="Sea Zone 144"/>
+	<connection t1="Sea Zone 141" t2="Sea Zone 145"/>
+	<connection t1="Sea Zone 142" t2="Sea Zone 153"/>
+	<connection t1="Sea Zone 142" t2="Sea Zone 143"/>
+    <connection t1="Sea Zone 143" t2="Sea Zone 144"/>
+	<connection t1="Sea Zone 143" t2="Sea Zone 146"/>
+	<connection t1="Sea Zone 144" t2="Sea Zone 145"/>
+	<connection t1="Sea Zone 144" t2="Sea Zone 146"/>
+	<connection t1="Sea Zone 144" t2="Sea Zone 148"/>
+    <connection t1="Sea Zone 144" t2="Sea Zone 150"/>
+    <connection t1="Sea Zone 145" t2="Sea Zone 150"/>
+    <connection t1="Sea Zone 146" t2="Sea Zone 147"/>
+    <connection t1="Sea Zone 146" t2="Sea Zone 148"/>
+    <connection t1="Sea Zone 147" t2="Sea Zone 149"/>
+    <connection t1="Sea Zone 148" t2="Sea Zone 149"/>
+    <connection t1="Sea Zone 148" t2="Sea Zone 150"/>
+	<connection t1="Sea Zone 148" t2="Sea Zone 151"/>
+	<connection t1="Sea Zone 149" t2="Sea Zone 151"/>
+	<connection t1="Sea Zone 150" t2="Sea Zone 151"/>
+	<connection t1="Sea Zone 153" t2="Sea Zone 158"/>
+    <connection t1="Sea Zone 154" t2="Sea Zone 156"/>
+	<connection t1="Sea Zone 155" t2="Sea Zone 157"/>
+	<connection t1="Sea Zone 156" t2="Sea Zone 157"/>
+	<connection t1="Sea Zone 156" t2="Sea Zone 158"/>
+	<connection t1="Sea Zone 156" t2="Sea Zone 159"/>
+	<connection t1="Sea Zone 157" t2="Sea Zone 159"/>
+	<connection t1="Sea Zone 157" t2="Sea Zone 160"/>
+	<connection t1="Sea Zone 157" t2="Sea Zone 161"/>
+	<connection t1="Sea Zone 158" t2="Sea Zone 159"/>
+	<connection t1="Sea Zone 159" t2="Sea Zone 160"/>
+	<connection t1="Sea Zone 160" t2="Sea Zone 161"/>
+	<connection t1="Sea Zone 162" t2="Sea Zone 163"/>
+	<connection t1="Sea Zone 163" t2="Sea Zone 164"/>
+	<connection t1="Sea Zone 164" t2="Sea Zone 165"/>
+	<connection t1="Sea Zone 11" t2="Trondheim"/>
+	<connection t1="Sea Zone 11" t2="Bergen"/>
+	<connection t1="Sea Zone 12" t2="Sweden"/>
+	<connection t1="Sea Zone 12" t2="Finland"/>
+	<connection t1="Sea Zone 22" t2="Bergen"/>
+	<connection t1="Sea Zone 22" t2="Stavanger"/>
+    <connection t1="Sea Zone 23" t2="Sweden"/>
+	<connection t1="Sea Zone 23" t2="Finland"/>
+	<connection t1="Sea Zone 24" t2="Sweden"/>
+	<connection t1="Sea Zone 24" t2="Finland"/>
+	<connection t1="Sea Zone 25" t2="Finland"/>
+    <connection t1="Sea Zone 25" t2="Leningrad"/>
+    <connection t1="Sea Zone 25" t2="Novgorod"/>
+    <connection t1="Sea Zone 25" t2="Oranienbaum"/>
+    <connection t1="Sea Zone 25" t2="Narva"/>
+    <connection t1="Sea Zone 25" t2="Tallinn"/>
+    <connection t1="Sea Zone 26" t2="Finland"/>
+    <connection t1="Sea Zone 26" t2="Petrozavodsk"/>
+	<connection t1="Sea Zone 26" t2="Olonets"/>
+	<connection t1="Sea Zone 26" t2="Volkhov"/>
+	<connection t1="Sea Zone 26" t2="Novgorod"/>
+	<connection t1="Sea Zone 26" t2="Leningrad"/>
+    <connection t1="Sea Zone 28" t2="Canada HQ"/>
+	<connection t1="Sea Zone 29" t2="Canada HQ"/>
+	<connection t1="Sea Zone 34" t2="Glasgow"/>
+	<connection t1="Sea Zone 37" t2="Stavanger"/>
+	<connection t1="Sea Zone 38" t2="Stavanger"/>
+	<connection t1="Sea Zone 38" t2="Oslo"/>
+	<connection t1="Sea Zone 38" t2="Sweden"/>
+	<connection t1="Sea Zone 38" t2="Aarhus"/>
+	<connection t1="Sea Zone 39" t2="Sweden"/>
+	<connection t1="Sea Zone 40" t2="Riga"/>
+	<connection t1="Sea Zone 40" t2="Tallinn"/>
+	<connection t1="Sea Zone 41" t2="Canada HQ"/>
+	<connection t1="Sea Zone 42" t2="Canada HQ"/>
+	<connection t1="Sea Zone 45" t2="Ireland"/>
+	<connection t1="Sea Zone 46" t2="Glasgow"/>
+	<connection t1="Sea Zone 46" t2="Manchester"/>
+	<connection t1="Sea Zone 46" t2="Belfast"/>
+	<connection t1="Sea Zone 46" t2="Ireland"/>
+    <connection t1="Sea Zone 47" t2="Glasgow"/>
+	<connection t1="Sea Zone 47" t2="Manchester"/>
+	<connection t1="Sea Zone 49" t2="Aarhus"/>
+	<connection t1="Sea Zone 50" t2="Aarhus"/>
+	<connection t1="Sea Zone 50" t2="Copenhagen"/>
+    <connection t1="Sea Zone 50" t2="Sweden"/>
+    <connection t1="Sea Zone 51" t2="Sweden"/>
+    <connection t1="Sea Zone 52" t2="Riga"/>
+    <connection t1="Sea Zone 54" t2="Canada HQ"/>
+    <connection t1="Sea Zone 54" t2="United States HQ"/>
+    <connection t1="Sea Zone 55" t2="Canada HQ"/>
+    <connection t1="Sea Zone 55" t2="United States HQ"/>
+	<connection t1="Sea Zone 59" t2="Ireland"/>
+	<connection t1="Sea Zone 60" t2="Ireland"/>
+	<connection t1="Sea Zone 60" t2="Cardiff"/>
+	<connection t1="Sea Zone 60" t2="London"/>
+    <connection t1="Sea Zone 61" t2="Manchester"/>
+	<connection t1="Sea Zone 61" t2="London"/>
+	<connection t1="Sea Zone 63" t2="Amsterdam"/>
+	<connection t1="Sea Zone 63" t2="Hamburg"/>
+	<connection t1="Sea Zone 64" t2="Copenhagen"/>
+	<connection t1="Sea Zone 64" t2="Aarhus"/>
+	<connection t1="Sea Zone 64" t2="Hamburg"/>
+	<connection t1="Sea Zone 64" t2="Rostock"/>
+	<connection t1="Sea Zone 64" t2="Sweden"/>
+	<connection t1="Sea Zone 64" t2="Pomerania"/>	
+	<connection t1="Sea Zone 65" t2="Pomerania"/>
+	<connection t1="Sea Zone 65" t2="Danzig"/>
+	<connection t1="Sea Zone 65" t2="Konigsberg"/>
+	<connection t1="Sea Zone 66" t2="United States HQ"/>
+	<connection t1="Sea Zone 67" t2="United States HQ"/>
+	<connection t1="Sea Zone 71" t2="London"/>
+    <connection t1="Sea Zone 72" t2="London"/>
+	<connection t1="Sea Zone 73" t2="Normandy"/>
+	<connection t1="Sea Zone 74" t2="London"/>
+	<connection t1="Sea Zone 75" t2="Normandy"/>
+	<connection t1="Sea Zone 75" t2="Amiens"/>
+    <connection t1="Sea Zone 76" t2="London"/>
+    <connection t1="Sea Zone 76" t2="Antwerp"/>
+    <connection t1="Sea Zone 77" t2="Rotterdam"/>
+    <connection t1="Sea Zone 77" t2="Amsterdam"/>
+    <connection t1="Sea Zone 79" t2="United States HQ"/>
+    <connection t1="Sea Zone 80" t2="United States HQ"/>
+	<connection t1="Sea Zone 85" t2="Normandy"/>
+	<connection t1="Sea Zone 91" t2="Spain"/>
+	<connection t1="Sea Zone 92" t2="Spain"/>
+	<connection t1="Sea Zone 93" t2="Bordeaux"/>
+    <connection t1="Sea Zone 93" t2="Spain"/>
+	<connection t1="Sea Zone 99" t2="Portugal"/>
+	<connection t1="Sea Zone 99" t2="Spain"/>
+	<connection t1="Sea Zone 105" t2="Portugal"/>
+	<connection t1="Sea Zone 105" t2="Spain"/>
+	<connection t1="Sea Zone 105" t2="Gibraltar"/>
+	<connection t1="Sea Zone 112" t2="Gibraltar"/>
+	<connection t1="Sea Zone 112" t2="Morocco"/>
+	<connection t1="Sea Zone 118" t2="Sahara"/>
+	<connection t1="Sea Zone 124" t2="Sahara"/>	
+	<connection t1="Sea Zone 125" t2="Spain"/>
+	<connection t1="Sea Zone 125" t2="Gibraltar"/>
+	<connection t1="Sea Zone 125" t2="Morocco"/>
+	<connection t1="Sea Zone 125" t2="Oran"/>
+	<connection t1="Sea Zone 126" t2="Spain"/>
+	<connection t1="Sea Zone 126" t2="Marseille"/>
+    <connection t1="Sea Zone 126" t2="Nice"/>
+	<connection t1="Sea Zone 127" t2="Spain"/>
+	<connection t1="Sea Zone 128" t2="Algiers"/>
+	<connection t1="Sea Zone 128" t2="Annaba"/>
+	<connection t1="Sea Zone 129" t2="Milan"/>
+    <connection t1="Sea Zone 129" t2="Rome"/>
+    <connection t1="Sea Zone 129" t2="Naples"/>
+    <connection t1="Sea Zone 129" t2="Corsica"/>
+    <connection t1="Sea Zone 129" t2="Sardinia"/>
+    <connection t1="Sea Zone 130" t2="Sardinia"/>
+    <connection t1="Sea Zone 131" t2="Salerno"/>
+    <connection t1="Sea Zone 131" t2="Sicily"/>
+	<connection t1="Sea Zone 132" t2="Annaba"/>
+	<connection t1="Sea Zone 132" t2="Tunis"/>
+	<connection t1="Sea Zone 132" t2="Malta"/>
+	<connection t1="Sea Zone 132" t2="Sicily"/>
+    <connection t1="Sea Zone 133" t2="Rome"/>
+	<connection t1="Sea Zone 133" t2="Milan"/>
+	<connection t1="Sea Zone 133" t2="Trieste"/>
+	<connection t1="Sea Zone 133" t2="Dalmatia"/>
+	<connection t1="Sea Zone 134" t2="Rome"/>
+	<connection t1="Sea Zone 134" t2="Naples"/>
+	<connection t1="Sea Zone 134" t2="Salerno"/>
+	<connection t1="Sea Zone 134" t2="Dalmatia"/>
+	<connection t1="Sea Zone 134" t2="Montenegro"/>
+	<connection t1="Sea Zone 134" t2="Albania"/>
+	<connection t1="Sea Zone 135" t2="Salerno"/>
+	<connection t1="Sea Zone 135" t2="Albania"/>
+	<connection t1="Sea Zone 135" t2="Larissa"/>
+	<connection t1="Sea Zone 135" t2="Athens"/>
+	<connection t1="Sea Zone 135" t2="Morea"/>
+	<connection t1="Sea Zone 136" t2="Salerno"/>
+	<connection t1="Sea Zone 136" t2="Sicily"/>
+	<connection t1="Sea Zone 136" t2="Malta"/>
+    <connection t1="Sea Zone 137" t2="Tunis"/>
+	<connection t1="Sea Zone 137" t2="Malta"/>
+	<connection t1="Sea Zone 137" t2="Tripoli"/>
+	<connection t1="Sea Zone 138" t2="Morea"/>
+	<connection t1="Sea Zone 138" t2="Athens"/>
+    <connection t1="Sea Zone 138" t2="Crete"/>
+    <connection t1="Sea Zone 140" t2="Tripoli"/>
+    <connection t1="Sea Zone 140" t2="El Aghelia"/>
+    <connection t1="Sea Zone 140" t2="Benghazi"/>
+    <connection t1="Sea Zone 140" t2="Tobruk"/>
+    <connection t1="Sea Zone 141" t2="Crete"/>
+    <connection t1="Sea Zone 141" t2="Tobruk"/>
+	<connection t1="Sea Zone 142" t2="Athens"/>
+	<connection t1="Sea Zone 142" t2="Larissa"/>
+	<connection t1="Sea Zone 142" t2="Thessaloniki"/>
+	<connection t1="Sea Zone 142" t2="Kavala"/>
+    <connection t1="Sea Zone 142" t2="Turkey"/>
+	<connection t1="Sea Zone 143" t2="Turkey"/>
+	<connection t1="Sea Zone 143" t2="Rhodes"/>
+	<connection t1="Sea Zone 143" t2="Crete"/>
+	<connection t1="Sea Zone 144" t2="Crete"/>
+	<connection t1="Sea Zone 145" t2="Tobruk"/>
+	<connection t1="Sea Zone 145" t2="Bardia"/>
+	<connection t1="Sea Zone 145" t2="Sidi Barrani"/>
+	<connection t1="Sea Zone 146" t2="Turkey"/>
+	<connection t1="Sea Zone 147" t2="Turkey"/>	
+	<connection t1="Sea Zone 147" t2="Latakia"/>
+	<connection t1="Sea Zone 147" t2="Cyprus"/>
+	<connection t1="Sea Zone 148" t2="Cyprus"/>
+	<connection t1="Sea Zone 149" t2="Cyprus"/>
+	<connection t1="Sea Zone 149" t2="Latakia"/>
+	<connection t1="Sea Zone 149" t2="Beirut"/>
+    <connection t1="Sea Zone 149" t2="Jerusalem"/>
+	<connection t1="Sea Zone 150" t2="El Alamein"/>
+	<connection t1="Sea Zone 150" t2="Cairo"/>
+	<connection t1="Sea Zone 151" t2="Cairo"/>
+	<connection t1="Sea Zone 151" t2="Sinai"/>
+    <connection t1="Sea Zone 151" t2="Jerusalem"/>
+    <connection t1="Sea Zone 152" t2="Kuwait"/>
+    <connection t1="Sea Zone 152" t2="Basra"/>
+    <connection t1="Sea Zone 152" t2="Abadan"/>
+    <connection t1="Sea Zone 153" t2="Turkey"/>
+    <connection t1="Sea Zone 154" t2="Bucharest"/>
+	<connection t1="Sea Zone 154" t2="Odessa"/>
+	<connection t1="Sea Zone 154" t2="Mykolaiv"/>
+	<connection t1="Sea Zone 154" t2="Perekop"/>
+	<connection t1="Sea Zone 154" t2="Crimea"/>
+    <connection t1="Sea Zone 155" t2="Kerch"/>
+	<connection t1="Sea Zone 155" t2="Crimea"/>
+	<connection t1="Sea Zone 155" t2="Perekop"/>
+	<connection t1="Sea Zone 155" t2="Mariupol"/>
+	<connection t1="Sea Zone 155" t2="Rostov"/>
+	<connection t1="Sea Zone 155" t2="Volgodonsk"/>
+	<connection t1="Sea Zone 155" t2="Krasnodar"/>
+	<connection t1="Sea Zone 156" t2="Bucharest"/>
+	<connection t1="Sea Zone 156" t2="Crimea"/>
+	<connection t1="Sea Zone 156" t2="Sevastopol"/>
+	<connection t1="Sea Zone 157" t2="Sevastopol"/>
+	<connection t1="Sea Zone 157" t2="Crimea"/>
+	<connection t1="Sea Zone 157" t2="Kerch"/>
+	<connection t1="Sea Zone 157" t2="Krasnodar"/>
+	<connection t1="Sea Zone 157" t2="Maikop"/>	
+	<connection t1="Sea Zone 158" t2="Varna"/>
+	<connection t1="Sea Zone 158" t2="Turkey"/>
+    <connection t1="Sea Zone 159" t2="Turkey"/>
+	<connection t1="Sea Zone 160" t2="Turkey"/>
+	<connection t1="Sea Zone 161" t2="Poti"/>
+	<connection t1="Sea Zone 161" t2="Turkey"/>
+	<connection t1="Sea Zone 162" t2="Astrakhan"/>
+	<connection t1="Sea Zone 162" t2="Isatay"/>
+	<connection t1="Sea Zone 162" t2="Akkystau"/>
+	<connection t1="Sea Zone 162" t2="Guryev"/>
+	<connection t1="Sea Zone 162" t2="Aktau"/>
+	<connection t1="Sea Zone 163" t2="Grozny"/>
+	<connection t1="Sea Zone 163" t2="Makhachkala"/>
+    <connection t1="Sea Zone 163" t2="Aktau"/>
+	<connection t1="Sea Zone 164" t2="Baku"/>
+	<connection t1="Sea Zone 165" t2="Baku"/>
+	<connection t1="Sea Zone 165" t2="Ardabil"/>
+	<connection t1="Ireland" t2="Belfast"/>
+	<connection t1="Portugal" t2="Spain"/>
+	<connection t1="Spain" t2="Bordeaux"/>
+	<connection t1="Spain" t2="Toulouse"/>
+	<connection t1="Spain" t2="Marseille"/>	
+	<connection t1="Spain" t2="Gibraltar"/>
+	<connection t1="Sahara" t2="Morocco"/>
+    <connection t1="Sahara" t2="Oran"/>
+	<connection t1="Sahara" t2="Algiers"/>
+	<connection t1="Sahara" t2="Annaba"/>
+	<connection t1="Sahara" t2="Tunis"/>
+	<connection t1="Sahara" t2="Tripoli"/>
+	<connection t1="Sahara" t2="Ghadames"/>
+	<connection t1="Sweden" t2="Trondheim"/>
+	<connection t1="Sweden" t2="Oslo"/>
+	<connection t1="Finland" t2="Leningrad"/>
+	<connection t1="Finland" t2="Petrozavodsk"/>
+	<connection t1="Switzerland" t2="Lyon"/>
+    <connection t1="Switzerland" t2="Nice"/>
+	<connection t1="Switzerland" t2="Milan"/>
+	<connection t1="Switzerland" t2="Trieste"/>
+	<connection t1="Switzerland" t2="Salzburg"/>
+	<connection t1="Switzerland" t2="Munich"/>
+	<connection t1="Switzerland" t2="Stuttgart"/>
+	<connection t1="Switzerland" t2="Strasbourg"/>
+	<connection t1="Turkey" t2="Kavala"/>
+	<connection t1="Turkey" t2="Varna"/>
+    <connection t1="Turkey" t2="Latakia"/>
+	<connection t1="Turkey" t2="Zor"/>
+	<connection t1="Turkey" t2="Mosul"/>
+	<connection t1="Turkey" t2="Tabriz"/>
+	<connection t1="Turkey" t2="Yerevan"/>
+	<connection t1="Turkey" t2="Tiflis"/>
+	<connection t1="Turkey" t2="Poti"/>	
+	<connection t1="Arabia" t2="Amman"/>
+	<connection t1="Arabia" t2="Ramadi"/>
+	<connection t1="Arabia" t2="Karbala"/>
+	<connection t1="Arabia" t2="Najaf"/>
+	<connection t1="Arabia" t2="Basra"/>
+	<connection t1="Arabia" t2="Kuwait"/>
+	<connection t1="Leningrad" t2="Novgorod"/>
+	<connection t1="Volkhov" t2="Novgorod"/>
+	<connection t1="Volkhov" t2="Ostashkov"/>
+	<connection t1="Volkhov" t2="Tikhvin"/>
+	<connection t1="Volkhov" t2="Yaroslavl"/>
+	<connection t1="Volkhov" t2="Olonets"/>
+	<connection t1="Ostashkov" t2="Novgorod"/>
+    <connection t1="Ostashkov" t2="Andreapol"/>
+	<connection t1="Ostashkov" t2="Smolensk"/>
+	<connection t1="Ostashkov" t2="Rzhev"/>
+	<connection t1="Ostashkov" t2="Tikhvin"/>
+	<connection t1="Oranienbaum" t2="Novgorod"/>
+	<connection t1="Oranienbaum" t2="Narva"/>
+	<connection t1="Tikhvin" t2="Rzhev"/>
+	<connection t1="Tikhvin" t2="Kalinin"/>
+	<connection t1="Tikhvin" t2="Yaroslavl"/>
+	<connection t1="Petrozavodsk" t2="Onega"/>
+	<connection t1="Petrozavodsk" t2="Olonets"/>
+    <connection t1="Kalinin" t2="Rzhev"/>
+	<connection t1="Kalinin" t2="Kaluga"/>
+	<connection t1="Kalinin" t2="Tula"/>
+	<connection t1="Kalinin" t2="Moscow"/>
+	<connection t1="Kalinin" t2="Yaroslavl"/>
+	<connection t1="Kaluga" t2="Rzhev"/>
+	<connection t1="Kaluga" t2="Orel"/>	
+	<connection t1="Kaluga" t2="Bryansk"/>
+	<connection t1="Kaluga" t2="Tula"/>
+    <connection t1="Bryansk" t2="Orel"/>
+	<connection t1="Bryansk" t2="Kursk"/>
+	<connection t1="Bryansk" t2="Voronezh"/>
+	<connection t1="Bryansk" t2="Tambov"/>
+	<connection t1="Bryansk" t2="Tula"/>
+	<connection t1="Voronezh" t2="Kursk"/>
+	<connection t1="Voronezh" t2="Kharkov"/>
+	<connection t1="Voronezh" t2="Pavlovsk"/>
+	<connection t1="Voronezh" t2="Tambov"/>
+	<connection t1="Pavlovsk" t2="Kharkov"/>
+	<connection t1="Pavlovsk" t2="Mariupol"/>
+	<connection t1="Pavlovsk" t2="Rostov"/>
+	<connection t1="Pavlovsk" t2="Balashov"/>
+	<connection t1="Pavlovsk" t2="Tambov"/>	
+	<connection t1="Rostov" t2="Mariupol"/>
+	<connection t1="Rostov" t2="Volgodonsk"/>
+	<connection t1="Rostov" t2="Kalach"/>
+	<connection t1="Rostov" t2="Balashov"/>
+	<connection t1="Sevastopol" t2="Crimea"/>
+	<connection t1="Kerch" t2="Crimea"/>
+	<connection t1="Olonets" t2="Onega"/>
+    <connection t1="Olonets" t2="Vologda"/>
+	<connection t1="Olonets" t2="Yaroslavl"/>
+	<connection t1="Yaroslavl" t2="Vologda"/>
+	<connection t1="Yaroslavl" t2="Sergiyev"/>
+	<connection t1="Yaroslavl" t2="Moscow"/>
+	<connection t1="Moscow" t2="Sergiyev"/>
+	<connection t1="Moscow" t2="Vladimir"/>
+	<connection t1="Moscow" t2="Ryazan"/>
+	<connection t1="Moscow" t2="Tula"/>
+	<connection t1="Tula" t2="Ryazan"/>
+	<connection t1="Tula" t2="Morshansk"/>
+    <connection t1="Tula" t2="Tambov"/>
+	<connection t1="Tambov" t2="Morshansk"/>
+	<connection t1="Tambov" t2="Kamenka"/>
+	<connection t1="Tambov" t2="Balashov"/>
+	<connection t1="Balashov" t2="Kamenka"/>
+	<connection t1="Balashov" t2="Penza"/>
+	<connection t1="Balashov" t2="Saratov"/>
+	<connection t1="Balashov" t2="Kalach"/>
+	<connection t1="Kalach" t2="Saratov"/>
+    <connection t1="Kalach" t2="Stalingrad"/>
+	<connection t1="Kalach" t2="Yenotayevka"/>
+	<connection t1="Kalach" t2="Elista"/>
+	<connection t1="Kalach" t2="Volgodonsk"/>
+	<connection t1="Volgodonsk" t2="Krasnodar"/>
+	<connection t1="Volgodonsk" t2="Maikop"/>
+	<connection t1="Volgodonsk" t2="Elista"/>	
+	<connection t1="Stalingrad" t2="Saratov"/>
+	<connection t1="Stalingrad" t2="Volzhskiy"/>
+	<connection t1="Stalingrad" t2="Yenotayevka"/>
+	<connection t1="Krasnodar" t2="Maikop"/>
+	<connection t1="Zanjan" t2="Ardabil"/>
+	<connection t1="Zanjan" t2="Tabriz"/>
+	<connection t1="Zanjan" t2="Mosul"/>
+	<connection t1="Zanjan" t2="Hamedan"/>
+	<connection t1="Zanjan" t2="Karaj"/>
+	<connection t1="Ardabil" t2="Karaj"/>
+	<connection t1="Ardabil" t2="Tabriz"/>
+    <connection t1="Ardabil" t2="Ganja"/>
+	<connection t1="Ardabil" t2="Baku"/>
+	<connection t1="Tabriz" t2="Mosul"/>
+	<connection t1="Tabriz" t2="Yerevan"/>
+	<connection t1="Tabriz" t2="Ganja"/>
+	<connection t1="Baku" t2="Ganja"/>
+	<connection t1="Baku" t2="Makhachkala"/>
+	<connection t1="Ganja" t2="Yerevan"/>
+	<connection t1="Ganja" t2="Tiflis"/>
+	<connection t1="Ganja" t2="Makhachkala"/>
+	<connection t1="Yerevan" t2="Tiflis"/>
+    <connection t1="Makhachkala" t2="Grozny"/>
+	<connection t1="Makhachkala" t2="Tiflis"/>
+	<connection t1="Tiflis" t2="Grozny"/>
+	<connection t1="Tiflis" t2="Poti"/>
+	<connection t1="Poti" t2="Maikop"/>
+	<connection t1="Poti" t2="Pyatigorsk"/>
+	<connection t1="Poti" t2="Grozny"/>
+	<connection t1="Grozny" t2="Pyatigorsk"/>
+	<connection t1="Grozny" t2="Astrakhan"/>
+    <connection t1="Maikop" t2="Pyatigorsk"/>
+	<connection t1="Maikop" t2="Elista"/>
+	<connection t1="Pyatigorsk" t2="Elista"/>
+	<connection t1="Pyatigorsk" t2="Astrakhan"/>
+	<connection t1="Elista" t2="Yenotayevka"/>
+	<connection t1="Elista" t2="Astrakhan"/>
+	<connection t1="Astrakhan" t2="Yenotayevka"/>
+	<connection t1="Astrakhan" t2="Isatay"/>
+	<connection t1="Yenotayevka" t2="Volzhskiy"/>
+	<connection t1="Yenotayevka" t2="Isatay"/>
+	<connection t1="Onega" t2="Arkhangelsk"/>
+	<connection t1="Onega" t2="Velsk"/>
+	<connection t1="Onega" t2="Vologda"/>
+	<connection t1="Vologda" t2="Velsk"/>
+	<connection t1="Vologda" t2="Kirov"/>
+	<connection t1="Vologda" t2="Sergiyev"/>
+	<connection t1="Sergiyev" t2="Kirov"/>
+    <connection t1="Sergiyev" t2="Vladimir"/>
+	<connection t1="Vladimir" t2="Kirov"/>
+	<connection t1="Vladimir" t2="Orshanka"/>
+	<connection t1="Vladimir" t2="Cheboksary"/>
+	<connection t1="Vladimir" t2="Saransk"/>
+	<connection t1="Vladimir" t2="Ryazan"/>
+	<connection t1="Ryazan" t2="Morshansk"/>
+	<connection t1="Ryazan" t2="Saransk"/>
+	<connection t1="Morshansk" t2="Saransk"/>
+	<connection t1="Morshansk" t2="Kamenka"/>
+	<connection t1="Kamenka" t2="Saransk"/>
+    <connection t1="Kamenka" t2="Penza"/>
+	<connection t1="Volzhskiy" t2="Saratov"/>
+	<connection t1="Volzhskiy" t2="Syzran"/>
+	<connection t1="Volzhskiy" t2="Chapayevsk"/>
+	<connection t1="Saratov" t2="Penza"/>
+	<connection t1="Saratov" t2="Syzran"/>
+	<connection t1="Orenburg" t2="Ufa"/>
+	<connection t1="Orenburg" t2="Chapayevsk"/>
+	<connection t1="Chapayevsk" t2="Syzran"/>
+    <connection t1="Chapayevsk" t2="Kuybyshev"/>
+	<connection t1="Chapayevsk" t2="Ufa"/>
+	<connection t1="Syzran" t2="Penza"/>
+	<connection t1="Syzran" t2="Ulyanovsk"/>
+	<connection t1="Syzran" t2="Kuybyshev"/>
+	<connection t1="Penza" t2="Saransk"/>
+	<connection t1="Penza" t2="Ulyanovsk"/>
+	<connection t1="Saransk" t2="Cheboksary"/>
+	<connection t1="Saransk" t2="Ulyanovsk"/>
+	<connection t1="Ufa" t2="Yekaterinburg"/>
+	<connection t1="Ufa" t2="Kuybyshev"/>
+	<connection t1="Ufa" t2="Perm"/>
+	<connection t1="Kuybyshev" t2="Ulyanovsk"/>
+	<connection t1="Kuybyshev" t2="Izhevsk"/>
+	<connection t1="Kuybyshev" t2="Perm"/>
+	<connection t1="Arkhangelsk" t2="Mezen"/>
+    <connection t1="Arkhangelsk" t2="Syktyvkar"/>
+	<connection t1="Arkhangelsk" t2="Velsk"/>
+	<connection t1="Velsk" t2="Syktyvkar"/>
+	<connection t1="Velsk" t2="Kirov"/>
+	<connection t1="Kirov" t2="Syktyvkar"/>
+	<connection t1="Kirov" t2="Zuyevka"/>
+	<connection t1="Kirov" t2="Orshanka"/>
+	<connection t1="Orshanka" t2="Zuyevka"/>
+	<connection t1="Orshanka" t2="Baltasi"/>
+	<connection t1="Orshanka" t2="Cheboksary"/>
+	<connection t1="Cheboksary" t2="Baltasi"/>
+    <connection t1="Cheboksary" t2="Kazan"/>
+	<connection t1="Cheboksary" t2="Ulyanovsk"/>
+	<connection t1="Ulyanovsk" t2="Kazan"/>
+	<connection t1="Ulyanovsk" t2="Izhevsk"/>
+	<connection t1="Yekaterinburg" t2="Perm"/>
+	<connection t1="Yekaterinburg" t2="Pervouralsk"/>
+	<connection t1="Yekaterinburg" t2="Novouralsk"/>
+	<connection t1="Perm" t2="Izhevsk"/>
+	<connection t1="Perm" t2="Pervouralsk"/>
+    <connection t1="Izhevsk" t2="Kazan"/>
+	<connection t1="Izhevsk" t2="Igra"/>
+	<connection t1="Izhevsk" t2="Pervouralsk"/>
+	<connection t1="Kazan" t2="Baltasi"/>
+	<connection t1="Kazan" t2="Igra"/>
+	<connection t1="Mezen" t2="Varanday"/>
+	<connection t1="Mezen" t2="Medvezhka"/>
+	<connection t1="Mezen" t2="Syktyvkar"/>
+	<connection t1="Syktyvkar" t2="Medvezhka"/>
+	<connection t1="Syktyvkar" t2="Zuyevka"/>
+	<connection t1="Zuyevka" t2="Medvezhka"/>
+	<connection t1="Zuyevka" t2="Falenki"/>
+	<connection t1="Zuyevka" t2="Baltasi"/>
+	<connection t1="Baltasi" t2="Falenki"/>
+	<connection t1="Baltasi" t2="Glazov"/>
+    <connection t1="Baltasi" t2="Igra"/>
+	<connection t1="Igra" t2="Glazov"/>
+	<connection t1="Igra" t2="Serebryanka"/>
+	<connection t1="Igra" t2="Pervouralsk"/>
+	<connection t1="Varanday" t2="Medvezhka"/>
+	<connection t1="Varanday" t2="Seyda"/>
+	<connection t1="Varanday" t2="Vortuka"/>
+	<connection t1="Medvezhka" t2="Seyda"/>
+	<connection t1="Medvezhka" t2="Falenki"/>
+	<connection t1="Vortuka" t2="Seyda"/>
+	<connection t1="Vortuka" t2="Omutninsk"/>
+    <connection t1="Vortuka" t2="Berezniki"/>
+	<connection t1="Vortuka" t2="Salekhard"/>
+	<connection t1="Seyda" t2="Falenki"/>
+	<connection t1="Seyda" t2="Omutninsk"/>
+	<connection t1="Falenki" t2="Omutninsk"/>
+	<connection t1="Falenki" t2="Glazov"/>
+	<connection t1="Omutninsk" t2="Berezniki"/>
+	<connection t1="Omutninsk" t2="Serebryanka"/>
+	<connection t1="Omutninsk" t2="Glazov"/>
+    <connection t1="Glazov" t2="Serebryanka"/>
+	<connection t1="Pervouralsk" t2="Serebryanka"/>
+	<connection t1="Pervouralsk" t2="Kirovgrad"/>
+	<connection t1="Pervouralsk" t2="Novouralsk"/>
+	<connection t1="Novouralsk" t2="Kirovgrad"/>
+	<connection t1="Kirovgrad" t2="Serebryanka"/>
+	<connection t1="Kirovgrad" t2="Kushva"/>
+	<connection t1="Serebryanka" t2="Berezniki"/>
+	<connection t1="Serebryanka" t2="Kushva"/>
+	<connection t1="Kushva" t2="Berezniki"/>
+	<connection t1="Kushva" t2="Serov"/>
+	<connection t1="Serov" t2="Berezniki"/>
+	<connection t1="Serov" t2="Salekhard"/>
+	<connection t1="Berezniki" t2="Salekhard"/>
+	<connection t1="Hamburg" t2="Aarhus"/>
+	<connection t1="Hamburg" t2="Amsterdam"/>
+	<connection t1="Hamburg" t2="Rhineland"/>
+	<connection t1="Hamburg" t2="Hanover"/>
+	<connection t1="Hamburg" t2="Rostock"/>
+	<connection t1="Rhineland" t2="Rotterdam"/>
+	<connection t1="Rhineland" t2="Amsterdam"/>
+    <connection t1="Rhineland" t2="Ardennes"/>
+	<connection t1="Rhineland" t2="Stuttgart"/>
+	<connection t1="Rhineland" t2="Hanover"/>
+	<connection t1="Stuttgart" t2="Ardennes"/>
+	<connection t1="Stuttgart" t2="Strasbourg"/>
+	<connection t1="Stuttgart" t2="Hanover"/>
+	<connection t1="Stuttgart" t2="Munich"/>
+	<connection t1="Hanover" t2="Rostock"/>
+	<connection t1="Hanover" t2="Berlin"/>
+	<connection t1="Hanover" t2="Munich"/>
+	<connection t1="Munich" t2="Berlin"/>
+    <connection t1="Munich" t2="Prague"/>
+	<connection t1="Munich" t2="Salzburg"/>
+	<connection t1="Berlin" t2="Rostock"/>
+	<connection t1="Berlin" t2="Pomerania"/>
+	<connection t1="Berlin" t2="Silesia"/>
+	<connection t1="Berlin" t2="Prague"/>
+	<connection t1="Rostock" t2="Pomerania"/>	
+	<connection t1="Pomerania" t2="Silesia"/>
+	<connection t1="Pomerania" t2="Danzig"/>
+    <connection t1="Silesia" t2="Danzig"/>
+	<connection t1="Silesia" t2="Lodz"/>
+	<connection t1="Silesia" t2="Krakow"/>
+	<connection t1="Silesia" t2="Brno"/>
+	<connection t1="Silesia" t2="Krakow"/>
+	<connection t1="Konigsberg" t2="Danzig"/>
+	<connection t1="Konigsberg" t2="Lodz"/>	
+	<connection t1="Konigsberg" t2="Bialystok"/>
+	<connection t1="Konigsberg" t2="Riga"/>
+	<connection t1="Salzburg" t2="Prague"/>
+	<connection t1="Salzburg" t2="Vienna"/>
+	<connection t1="Salzburg" t2="Trieste"/>
+	<connection t1="Vienna" t2="Prague"/>
+	<connection t1="Vienna" t2="Brno"/>	
+	<connection t1="Vienna" t2="Slovakia"/>
+	<connection t1="Vienna" t2="Hungary"/>
+	<connection t1="Vienna" t2="Zagreb"/>
+	<connection t1="Vienna" t2="Trieste"/>
+	<connection t1="Prague" t2="Brno"/>
+	<connection t1="Brno" t2="Krakow"/>
+	<connection t1="Brno" t2="Slovakia"/>
+    <connection t1="Danzig" t2="Lodz"/>
+	<connection t1="Lodz" t2="Krakow"/>
+	<connection t1="Lodz" t2="Warsaw"/>
+	<connection t1="Lodz" t2="Bialystok"/>
+	<connection t1="Krakow" t2="Warsaw"/>
+	<connection t1="Krakow" t2="Lvov"/>
+	<connection t1="Krakow" t2="Transcarpathia"/>
+	<connection t1="Krakow" t2="Slovakia"/>
+	<connection t1="Warsaw" t2="Bialystok"/>
+	<connection t1="Warsaw" t2="Brest"/>
+	<connection t1="Warsaw" t2="Lvov"/>
+    <connection t1="Slovakia" t2="Transcarpathia"/>
+	<connection t1="Slovakia" t2="Hungary"/>
+	<connection t1="Oslo" t2="Stavanger"/>
+	<connection t1="Oslo" t2="Bergen"/>
+	<connection t1="Oslo" t2="Trondheim"/>
+	<connection t1="Stavanger" t2="Bergen"/>
+	<connection t1="Bergen" t2="Trondheim"/>
+	<connection t1="Amsterdam" t2="Rotterdam"/>
+	<connection t1="Rotterdam" t2="Antwerp"/>
+    <connection t1="Rotterdam" t2="Ardennes"/>
+	<connection t1="Ardennes" t2="Amiens"/>
+	<connection t1="Ardennes" t2="Antwerp"/>
+	<connection t1="Ardennes" t2="Reims"/>
+	<connection t1="Ardennes" t2="Strasbourg"/>
+	<connection t1="Amiens" t2="Normandy"/>
+	<connection t1="Amiens" t2="Paris"/>	
+	<connection t1="Amiens" t2="Reims"/>
+	<connection t1="Amiens" t2="Antwerp"/>
+	<connection t1="Normandy" t2="Paris"/>
+	<connection t1="Normandy" t2="Bordeaux"/>
+	<connection t1="Paris" t2="Bordeaux"/>
+	<connection t1="Paris" t2="Limoges"/>
+	<connection t1="Paris" t2="Lyon"/>
+	<connection t1="Paris" t2="Reims"/>
+	<connection t1="Reims" t2="Lyon"/>
+	<connection t1="Reims" t2="Strasbourg"/>
+	<connection t1="Strasbourg" t2="Lyon"/>
+    <connection t1="Bordeaux" t2="Limoges"/>
+	<connection t1="Bordeaux" t2="Toulouse"/>
+	<connection t1="Toulouse" t2="Limoges"/>
+	<connection t1="Toulouse" t2="Marseille"/>
+	<connection t1="Limoges" t2="Lyon"/>
+	<connection t1="Limoges" t2="Marseille"/>
+	<connection t1="Lyon" t2="Marseille"/>
+	<connection t1="Lyon" t2="Nice"/>
+	<connection t1="Marseille" t2="Nice"/>
+	<connection t1="Morocco" t2="Oran"/>
+	<connection t1="Oran" t2="Algiers"/>
+    <connection t1="Algiers" t2="Annaba"/>
+	<connection t1="Transcarpathia" t2="Lvov"/>
+	<connection t1="Transcarpathia" t2="Cluj"/>
+	<connection t1="Transcarpathia" t2="Timisoara"/>
+	<connection t1="Transcarpathia" t2="Hungary"/>
+	<connection t1="Hungary" t2="Zagreb"/>
+	<connection t1="Hungary" t2="Serbia"/>
+	<connection t1="Hungary" t2="Timisoara"/>
+	<connection t1="Cluj" t2="Lvov"/>
+    <connection t1="Cluj" t2="Bacau"/>
+	<connection t1="Cluj" t2="Bucharest"/>
+	<connection t1="Cluj" t2="Craiova"/>
+	<connection t1="Cluj" t2="Timisoara"/>
+	<connection t1="Timisoara" t2="Craiova"/>
+	<connection t1="Timisoara" t2="Serbia"/>
+	<connection t1="Bacau" t2="Lvov"/>
+	<connection t1="Bacau" t2="Ternopil"/>
+	<connection t1="Bacau" t2="Odessa"/>
+	<connection t1="Bacau" t2="Bucharest"/>
+	<connection t1="Bucharest" t2="Odessa"/>
+	<connection t1="Bucharest" t2="Craiova"/>
+	<connection t1="Bucharest" t2="Varna"/>
+	<connection t1="Craiova" t2="Serbia"/>
+	<connection t1="Craiova" t2="Sofia"/>
+	<connection t1="Craiova" t2="Varna"/>
+	<connection t1="Zagreb" t2="Trieste"/>
+    <connection t1="Zagreb" t2="Dalmatia"/>
+	<connection t1="Zagreb" t2="Serbia"/>
+	<connection t1="Serbia" t2="Dalmatia"/>
+	<connection t1="Serbia" t2="Montenegro"/>
+	<connection t1="Serbia" t2="Albania"/>
+	<connection t1="Serbia" t2="Skopje"/>
+	<connection t1="Serbia" t2="Sofia"/>
+	<connection t1="Skopje" t2="Albania"/>
+	<connection t1="Skopje" t2="Larissa"/>
+	<connection t1="Skopje" t2="Thessaloniki"/>
+	<connection t1="Skopje" t2="Sofia"/>
+    <connection t1="Sofia" t2="Thessaloniki"/>
+	<connection t1="Sofia" t2="Kavala"/>
+	<connection t1="Sofia" t2="Varna"/>
+	<connection t1="Varna" t2="Kavala"/>
+	<connection t1="Kavala" t2="Thessaloniki"/>
+	<connection t1="Thessaloniki" t2="Larissa"/>
+	<connection t1="Athens" t2="Larissa"/>
+	<connection t1="Athens" t2="Morea"/>
+	<connection t1="Riga" t2="Tallinn"/>
+    <connection t1="Riga" t2="Rezekne"/>
+	<connection t1="Riga" t2="Bialystok"/>
+	<connection t1="Tallinn" t2="Narva"/>
+	<connection t1="Tallinn" t2="Rezekne"/>
+	<connection t1="Narva" t2="Novgorod"/>
+	<connection t1="Narva" t2="Pskov"/>
+	<connection t1="Narva" t2="Rezekne"/>
+	<connection t1="Novgorod" t2="Andreapol"/>
+	<connection t1="Novgorod" t2="Pskov"/>
+	<connection t1="Rezekne" t2="Pskov"/>
+	<connection t1="Rezekne" t2="Baranovichi"/>
+	<connection t1="Rezekne" t2="Bialystok"/>
+	<connection t1="Pskov" t2="Andreapol"/>
+	<connection t1="Pskov" t2="Minsk"/>
+	<connection t1="Pskov" t2="Baranovichi"/>
+	<connection t1="Andreapol" t2="Minsk"/>
+    <connection t1="Andreapol" t2="Smolensk"/>
+	<connection t1="Rzhev" t2="Smolensk"/>
+	<connection t1="Rzhev" t2="Orel"/>
+	<connection t1="Bialystok" t2="Baranovichi"/>
+	<connection t1="Bialystok" t2="Brest"/>
+	<connection t1="Lvov" t2="Brest"/>
+	<connection t1="Lvov" t2="Ternopil"/>
+	<connection t1="Brest" t2="Baranovichi"/>
+	<connection t1="Brest" t2="Ternopil"/>
+	<connection t1="Baranovichi" t2="Minsk"/>
+	<connection t1="Baranovichi" t2="Zhytomyr"/>
+    <connection t1="Baranovichi" t2="Ternopil"/>
+	<connection t1="Ternopil" t2="Zhytomyr"/>
+	<connection t1="Ternopil" t2="Vinnytsia"/>
+	<connection t1="Ternopil" t2="Odessa"/>
+	<connection t1="Odessa" t2="Vinnytsia"/>
+	<connection t1="Odessa" t2="Mykolaiv"/>
+	<connection t1="Minsk" t2="Smolensk"/>
+	<connection t1="Minsk" t2="Gomel"/>
+	<connection t1="Minsk" t2="Zhytomyr"/>
+    <connection t1="Zhytomyr" t2="Gomel"/>
+	<connection t1="Zhytomyr" t2="Vinnytsia"/>
+	<connection t1="Vinnytsia" t2="Gomel"/>
+	<connection t1="Vinnytsia" t2="Kiev"/>
+	<connection t1="Vinnytsia" t2="Mykolaiv"/>
+	<connection t1="Mykolaiv" t2="Kiev"/>
+	<connection t1="Mykolaiv" t2="Perekop"/>
+	<connection t1="Crimea" t2="Perekop"/>
+	<connection t1="Perekop" t2="Kiev"/>
+	<connection t1="Perekop" t2="Kharkov"/>
+	<connection t1="Perekop" t2="Mariupol"/>
+	<connection t1="Mariupol" t2="Kharkov"/>
+	<connection t1="Smolensk" t2="Orel"/>
+	<connection t1="Smolensk" t2="Gomel"/>
+	<connection t1="Orel" t2="Gomel"/>
+    <connection t1="Orel" t2="Kursk"/>
+	<connection t1="Kursk" t2="Gomel"/>
+	<connection t1="Kursk" t2="Kiev"/>
+	<connection t1="Kursk" t2="Kharkov"/>
+	<connection t1="Gomel" t2="Kiev"/>
+	<connection t1="Kiev" t2="Kharkov"/>
+	<connection t1="Nice" t2="Milan"/>
+	<connection t1="Milan" t2="Trieste"/>
+	<connection t1="Milan" t2="Rome"/>
+	<connection t1="Trieste" t2="Dalmatia"/>
+	<connection t1="Dalmatia" t2="Montenegro"/>
+    <connection t1="Montenegro" t2="Albania"/>
+	<connection t1="Albania" t2="Larissa"/>
+	<connection t1="Rome" t2="Naples"/>
+	<connection t1="Naples" t2="Salerno"/>
+	<connection t1="Annaba" t2="Tunis"/>
+	<connection t1="Tunis" t2="Tripoli"/>
+	<connection t1="Tripoli" t2="El Aghelia"/>
+	<connection t1="Tripoli" t2="Ghadames"/>
+	<connection t1="Ghadames" t2="El Aghelia"/>
+    <connection t1="El Aghelia" t2="Benghazi"/>
+	<connection t1="Benghazi" t2="Tobruk"/>
+	<connection t1="Benghazi" t2="Bardia"/>
+	<connection t1="Glasgow" t2="Manchester"/>
+	<connection t1="Manchester" t2="Cardiff"/>
+	<connection t1="Manchester" t2="London"/>
+	<connection t1="London" t2="Cardiff"/>
+	<connection t1="Tobruk" t2="Bardia"/>
+	<connection t1="Bardia" t2="Sidi Barrani"/>
+	<connection t1="Sidi Barrani" t2="El Alamein"/>
+	<connection t1="El Alamein" t2="Cairo"/>
+	<connection t1="Cairo" t2="Sinai"/>
+	<connection t1="Sinai" t2="Jerusalem"/>
+	<connection t1="Jerusalem" t2="Beirut"/>
+	<connection t1="Jerusalem" t2="Damascus"/>
+    <connection t1="Jerusalem" t2="Amman"/>
+	<connection t1="Latakia" t2="Zor"/>
+	<connection t1="Latakia" t2="Damascus"/>
+	<connection t1="Latakia" t2="Beirut"/>
+	<connection t1="Beirut" t2="Damascus"/>
+	<connection t1="Damascus" t2="Zor"/>
+	<connection t1="Damascus" t2="Ramadi"/>
+	<connection t1="Damascus" t2="Amman"/>
+	<connection t1="Amman" t2="Ramadi"/>
+	<connection t1="Zor" t2="Mosul"/>
+	<connection t1="Zor" t2="Tikrit"/>
+    <connection t1="Zor" t2="Ramadi"/>
+	<connection t1="Karaj" t2="Hamedan"/>
+	<connection t1="Karaj" t2="Kashan"/>
+	<connection t1="Hamedan" t2="Mosul"/>
+	<connection t1="Hamedan" t2="Baghdad"/>
+	<connection t1="Hamedan" t2="Kut"/>
+	<connection t1="Hamedan" t2="Kashan"/>
+	<connection t1="Kashan" t2="Kut"/>
+	<connection t1="Kashan" t2="Abadan"/>
+    <connection t1="Abadan" t2="Kut"/>
+	<connection t1="Abadan" t2="Basra"/>
+	<connection t1="Kuwait" t2="Basra"/>
+	<connection t1="Mosul" t2="Tikrit"/>
+	<connection t1="Mosul" t2="Baghdad"/>
+	<connection t1="Ramadi" t2="Tikrit"/>
+	<connection t1="Ramadi" t2="Karbala"/>
+	<connection t1="Tikrit" t2="Baghdad"/>
+	<connection t1="Tikrit" t2="Karbala"/>
+	<connection t1="Baghdad" t2="Karbala"/>
+	<connection t1="Baghdad" t2="Kut"/>
+	<connection t1="Karbala" t2="Kut"/>
+	<connection t1="Karbala" t2="Najaf"/>
+	<connection t1="Kut" t2="Basra"/>
+	<connection t1="Kut" t2="Najaf"/>
+	<connection t1="Najaf" t2="Basra"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <player name="USSR" optional="false"/>
+	<player name="Germany" optional="false"/>
+    <player name="USA" optional="false"/>
+	<player name="Italy" optional="false"/>
+	<player name="UK" optional="false"/>   	 
+	<player name="Rumania" optional="false"/>
+	<alliance player="Germany" alliance="Axis"/>
+    <alliance player="Italy" alliance="Axis"/>
+    <alliance player="Rumania" alliance="Axis"/>
+	<alliance player="USSR" alliance="Allies"/>
+	<alliance player="USA" alliance="Allies"/>
+	<alliance player="UK" alliance="Allies"/>
+  </playerList>
+  <unitList>
+    <unit name="infantry"/>
+    <unit name="artillery"/>
+    <unit name="armour"/>
+    <unit name="fighter"/>
+    <unit name="bomber"/>
+    <unit name="transport"/>
+    <unit name="submarine"/>
+    <unit name="destroyer"/>
+    <unit name="cruiser"/>
+    <unit name="carrier"/>
+    <unit name="aaGun"/>
+    <unit name="factory"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Collect Resources"/>
+    <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+	<delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="russianBid" delegate="bid" player="USSR" maxRunCount="1"/>
+      <step name="russianBidPlace" delegate="placeBid" player="USSR" maxRunCount="1"/>
+	  <step name="germanBid" delegate="bid" player="Germany" maxRunCount="1"/>
+      <step name="germanBidPlace" delegate="placeBid" player="Germany" maxRunCount="1"/>
+      <step name="americanBid" delegate="bid" player="USA" maxRunCount="1"/>
+      <step name="americanBidPlace" delegate="placeBid" player="USA" maxRunCount="1"/>
+      <step name="italianBid" delegate="bid" player="Italy" maxRunCount="1"/>
+      <step name="italianBidPlace" delegate="placeBid" player="Italy" maxRunCount="1"/>	  
+	  <step name="britishBid" delegate="bid" player="UK" maxRunCount="1"/>
+      <step name="britishBidPlace" delegate="placeBid" player="UK" maxRunCount="1"/>	  
+	  <step name="rumanianBid" delegate="bid" player="Rumania" maxRunCount="1"/>
+      <step name="rumanianBidPlace" delegate="placeBid" player="Rumania" maxRunCount="1"/>
+	  <step name="russian0EndTurn" delegate="endTurn" player="USSR"/>
+	  <step name="russianCombatMove" delegate="move" player="USSR"/>
+	  <step name="russianPurchase" delegate="purchase" player="USSR"/>
+      <step name="russianBattle" delegate="battle" player="USSR"/>
+      <step name="russianNonCombatMove" delegate="move" player="USSR" display="Non Combat Move"/>
+      <step name="russianPlace" delegate="place" player="USSR"/>
+      <step name="russian1EndTurn" delegate="endTurnNoPU" player="USSR"/>
+      <step name="german0EndTurn" delegate="endTurn" player="Germany"/>
+	  <step name="germanCombatMove" delegate="move" player="Germany"/>
+	  <step name="germanPurchase" delegate="purchase" player="Germany"/>
+      <step name="germanBattle" delegate="battle" player="Germany"/>
+      <step name="germanNonCombatMove" delegate="move" player="Germany" display="Non Combat Move"/>
+      <step name="germanPlace" delegate="place" player="Germany"/>
+      <step name="german1EndTurn" delegate="endTurnNoPU" player="Germany"/>    
+      <step name="american0EndTurn" delegate="endTurn" player="USA"/>
+	  <step name="americanCombatMove" delegate="move" player="USA"/>
+	  <step name="americanPurchase" delegate="purchase" player="USA"/>
+      <step name="americanBattle" delegate="battle" player="USA"/>
+      <step name="americanNonCombatMove" delegate="move" player="USA" display="Non Combat Move"/>
+      <step name="americanPlace" delegate="place" player="USA"/>
+      <step name="american1EndTurn" delegate="endTurnNoPU" player="USA"/>
+	  <step name="italian0EndTurn" delegate="endTurn" player="Italy"/>
+	  <step name="italianCombatMove" delegate="move" player="Italy"/>
+	  <step name="italianPurchase" delegate="purchase" player="Italy"/>
+      <step name="italianBattle" delegate="battle" player="Italy"/>
+      <step name="italianNonCombatMove" delegate="move" player="Italy" display="Non Combat Move"/>
+      <step name="italianPlace" delegate="place" player="Italy"/>
+      <step name="italian1EndTurn" delegate="endTurnNoPU" player="Italy"/>	  	  
+	  <step name="british0EndTurn" delegate="endTurn" player="UK"/>
+	  <step name="britishCombatMove" delegate="move" player="UK"/>
+      <step name="britishPurchase" delegate="purchase" player="UK"/>
+      <step name="britishBattle" delegate="battle" player="UK"/>
+      <step name="britishNonCombatMove" delegate="move" player="UK" display="Non Combat Move"/>
+      <step name="britishPlace" delegate="place" player="UK"/>
+      <step name="british1EndTurn" delegate="endTurnNoPU" player="UK"/>      
+	  <step name="rumanian0EndTurn" delegate="endTurn" player="Rumania"/>
+	  <step name="rumanianCombatMove" delegate="move" player="Rumania"/>
+	  <step name="rumanianPurchase" delegate="purchase" player="Rumania"/>
+      <step name="rumanianBattle" delegate="battle" player="Rumania"/>
+      <step name="rumanianNonCombatMove" delegate="move" player="Rumania" display="Non Combat Move"/>
+      <step name="rumanianPlace" delegate="place" player="Rumania"/>
+      <step name="rumanian1EndTurn" delegate="endTurnNoPU" player="Rumania"/>
+	  <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <productionRule name="buyInfantry">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtillery">
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArmour">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighter">
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBomber">
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTransport">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrier">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyer">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiser">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarine">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory">
+      <cost resource="PUs" quantity="30"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAAGun">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="production">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyArmour"/>
+      <frontierRules name="buyFighter"/>
+      <frontierRules name="buyBomber"/>
+      <frontierRules name="buyTransport"/>
+      <frontierRules name="buySubmarine"/>
+      <frontierRules name="buyDestroyer"/>
+      <frontierRules name="buyCruiser"/>
+      <frontierRules name="buyCarrier"/>
+      <frontierRules name="buyAAGun"/>
+      <frontierRules name="buyFactory"/>
+    </productionFrontier>
+    <playerProduction player="USSR" frontier="production"/>
+	<playerProduction player="Germany" frontier="production"/>   
+    <playerProduction player="USA" frontier="production"/>
+    <playerProduction player="Italy" frontier="production"/>	
+	<playerProduction player="UK" frontier="production"/>   	
+	<playerProduction player="Rumania" frontier="production"/>
+  </production>
+  <technology>
+  </technology>
+  <attachmentList>
+    <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="isInfantry" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="3"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="artillery" value="true"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="false"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="false"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="isDestroyer" value="true"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="carrierCapacity" value="2"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isSub" value="true"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	  <option name="destroyedWhenCapturedBy" value="Germany:Italy:Rumania:UK:USSR:USA"/>
+	</attachment>
+    <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="3"/>
+      <option name="movement" value="1"/>
+      <option name="destroyedWhenCapturedBy" value="Germany:Italy:Rumania:UK:USSR:USA"/>
+	  <option name="fuelCost" value="PUs" count="1"/>
+	  <option name="createsResourcesList" value="-1:PUs"/>
+	</attachment>
+    <attachment name="territoryAttachment" attachTo="Ireland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sweden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Finland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Switzerland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sahara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Spain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Portugal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Arabia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>				
+	<attachment name="territoryAttachment" attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+	  <option name="capital" value="USSR"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Oranienbaum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Leningrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Petrozavodsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Olonets" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Volkhov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Ostashkov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Tikhvin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Onega" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Vologda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Yaroslavl" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Kalinin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Kaluga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Tula" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Bryansk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Voronezh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Tambov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Pavlovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+   </attachment>
+	<attachment name="territoryAttachment" attachTo="Rostov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Arkhangelsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Velsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sevastopol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kerch" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Krasnodar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Volgodonsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Maikop" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Pyatigorsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Elista" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Poti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tiflis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Yerevan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Baku" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ganja" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tabriz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ardabil" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Zanjan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Makhachkala" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Grozny" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Aktau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Astrakhan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Isatay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Akkystau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Guryev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Orenburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Chapayevsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Volzhskiy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Yenotayevka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kalach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Stalingrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Saratov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Balashov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Syzran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Penza" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ufa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ulyanovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Saransk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Morshansk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kamenka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sergiyev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Vladimir" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ryazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kirov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Orshanka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Cheboksary" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Baltasi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Igra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Izhevsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Perm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Yekaterinburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Pervouralsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Novouralsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Mezen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Syktyvkar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Medvezhka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Zuyevka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Varanday" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Vortuka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Seyda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Falenki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Omutninsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Glazov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Serebryanka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kirovgrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kushva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Berezniki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Serov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Salekhard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+	  <option name="capital" value="Germany"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Rostock" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Pomerania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Silesia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Danzig" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Konigsberg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Lodz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Krakow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Warsaw" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Prague" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Brno" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Slovakia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Vienna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Salzburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Munich" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Hanover" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rhineland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="60"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Stuttgart" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Hamburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Aarhus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Copenhagen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Oslo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Stavanger" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bergen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Trondheim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Amsterdam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rotterdam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Antwerp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ardennes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Strasbourg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Reims" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Amiens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Normandy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Paris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bordeaux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Limoges" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Lyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Marseille" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Toulouse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Oran" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Algiers" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Hungary" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Transcarpathia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Zagreb" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Timisoara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Cluj" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Craiova" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bacau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bucharest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+      <option name="capital" value="Rumania"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Varna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sofia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Skopje" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kavala" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Thessaloniki" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Athens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Crete" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Riga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tallinn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Narva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Novgorod" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rezekne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Pskov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Andreapol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bialystok" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Brest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Lvov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Baranovichi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Minsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rzhev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Smolensk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ternopil" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Zhytomyr" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Odessa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Vinnytsia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Mykolaiv" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kiev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Perekop" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Crimea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Mariupol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kharkov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kursk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Gomel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Orel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+	  <option name="capital" value="UK"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Canada HQ" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Glasgow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Manchester" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Cardiff" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Belfast" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Gibraltar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Malta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Bardia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sidi Barrani" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="El Alamein" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Cairo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sinai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Cyprus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Jerusalem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Amman" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Beirut" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Latakia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Zor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Damascus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Mosul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tikrit" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Baghdad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ramadi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Karbala" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kut" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Najaf" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Basra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kuwait" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Hamedan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Karaj" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Kashan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Abadan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+	  <option name="capital" value="Italy"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Trieste" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Milan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="24"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Nice" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Corsica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Naples" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Salerno" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sardinia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sicily" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Dalmatia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Montenegro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Albania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Larissa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Morea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Rhodes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Annaba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tunis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Tripoli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Ghadames" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="El Aghelia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Benghazi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="United States HQ" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="100"/>
+	  <option name="capital" value="USA"/>
+	</attachment>				
+	<attachment name="territoryAttachment" attachTo="Sea Zone 155" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 161" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 25" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>	
+	<attachment name="territoryAttachment" attachTo="Sea Zone 85" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 75" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 77" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 63" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 37" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>		
+	<attachment name="territoryAttachment" attachTo="Sea Zone 65" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 40" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 126" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 128" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 142" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 125" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 138" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>	
+	<attachment name="territoryAttachment" attachTo="Sea Zone 72" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 74" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 47" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 61" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 150" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 151" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 70" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 129" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 131" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 133" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 134" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 135" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 140" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 143" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 68" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 89" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 91" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 103" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 105" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 87" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 101" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 114" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 116" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 118" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="30"/>
+      <option name="originalOwner" value="USA"/>
+	</attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 43" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 45" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 154" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="territoryAttachment" attachTo="Sea Zone 158" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+	<attachment name="playerAttachment" attachTo="USSR" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+	  <option name="retainCapitalNumber" value="0"/>
+      <option name="retainCapitalProduceNumber" value="0"/>
+    </attachment>
+	<attachment name="playerAttachment" attachTo="Germany" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+	  <option name="retainCapitalNumber" value="0"/>
+      <option name="retainCapitalProduceNumber" value="0"/>
+    </attachment>
+	<attachment name="playerAttachment" attachTo="UK" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+	  <option name="retainCapitalNumber" value="0"/>
+      <option name="retainCapitalProduceNumber" value="0"/>
+    </attachment>
+	<attachment name="playerAttachment" attachTo="Italy" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+	  <option name="retainCapitalNumber" value="0"/>
+      <option name="retainCapitalProduceNumber" value="0"/>
+    </attachment>
+	<attachment name="playerAttachment" attachTo="USA" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+	  <option name="retainCapitalNumber" value="0"/>
+      <option name="retainCapitalProduceNumber" value="0"/>
+    </attachment>	
+	<attachment name="canalAttachment1" attachTo="Sea Zone 158" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bosphorus"/>
+      <option name="landTerritories" value="Turkey"/>
+    </attachment>  
+    <attachment name="canalAttachment1" attachTo="Sea Zone 153" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bosphorus"/>
+      <option name="landTerritories" value="Turkey"/>
+     </attachment>             
+	<attachment name="canalAttachment2" attachTo="Sea Zone 142" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Dardanelles"/>
+      <option name="landTerritories" value="Turkey"/>
+    </attachment>  
+    <attachment name="canalAttachment2" attachTo="Sea Zone 153" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Dardanelles"/>
+      <option name="landTerritories" value="Turkey"/>
+     </attachment>         
+	<attachment name="conditionAttachmentUnconditionalAxisVictory" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+	  <option name="gameProperty" value="Unconditional Surrender"/>
+	  <option name="alliedOwnershipTerritories" value="Berlin:Rome:Bucharest:London:Moscow:United States HQ" count="5"/>
+	</attachment>
+	<attachment name="conditionAttachmentUnconditionalAlliesVictory" attachTo="USSR" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+	  <option name="gameProperty" value="Unconditional Surrender"/>
+	  <option name="alliedOwnershipTerritories" value="Berlin:Rome:Bucharest:London:Moscow:United States HQ" count="5"/>
+	</attachment>
+	<attachment name="triggerAttachmentUnconditionalAxisVictory" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachmentUnconditionalAxisVictory"/>
+	  <option name="when" value="after:germanBattle"/>
+	  <option name="when" value="after:italianBattle"/>
+	  <option name="when" value="after:rumanianBattle"/>
+	  <option name="victory" value="AXIS_VICTORY_UNCONDITIONAL"/>
+	  <option name="players" value="Germany:Italy:Rumania"/>
+	 </attachment>
+	<attachment name="triggerAttachmentUnconditionalAlliesVictory" attachTo="USSR" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachmentUnconditionalAlliesVictory"/>
+	  <option name="when" value="after:russianBattle"/>
+	  <option name="when" value="after:britishBattle"/>
+	  <option name="when" value="after:americanBattle"/>
+	  <option name="victory" value="ALLIES_VICTORY_UNCONDITIONAL"/>
+	  <option name="players" value="UK:USSR:USA"/>
+	 </attachment>  
+  </attachmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="Leningrad" owner="USSR"/>
+      <territoryOwner territory="Oranienbaum" owner="USSR"/>
+	  <territoryOwner territory="Petrozavodsk" owner="USSR"/>
+      <territoryOwner territory="Olonets" owner="USSR"/>
+      <territoryOwner territory="Volkhov" owner="USSR"/>
+	  <territoryOwner territory="Ostashkov" owner="USSR"/>
+	  <territoryOwner territory="Tikhvin" owner="USSR"/>
+	  <territoryOwner territory="Yaroslavl" owner="USSR"/>
+	  <territoryOwner territory="Kalinin" owner="USSR"/>
+      <territoryOwner territory="Kaluga" owner="USSR"/>
+	  <territoryOwner territory="Onega" owner="USSR"/>
+	  <territoryOwner territory="Vologda" owner="USSR"/>
+	  <territoryOwner territory="Sergiyev" owner="USSR"/>
+	  <territoryOwner territory="Moscow" owner="USSR"/>
+	  <territoryOwner territory="Tula" owner="USSR"/>
+	  <territoryOwner territory="Bryansk" owner="USSR"/>
+	  <territoryOwner territory="Voronezh" owner="USSR"/>
+	  <territoryOwner territory="Tambov" owner="USSR"/>
+	  <territoryOwner territory="Pavlovsk" owner="USSR"/>
+	  <territoryOwner territory="Rostov" owner="USSR"/>
+	  <territoryOwner territory="Kerch" owner="USSR"/>
+	  <territoryOwner territory="Sevastopol" owner="USSR"/>
+	  <territoryOwner territory="Volgodonsk" owner="USSR"/>
+	  <territoryOwner territory="Krasnodar" owner="USSR"/>
+	  <territoryOwner territory="Maikop" owner="USSR"/>
+	  <territoryOwner territory="Elista" owner="USSR"/>
+	  <territoryOwner territory="Kalach" owner="USSR"/>
+	  <territoryOwner territory="Stalingrad" owner="USSR"/>
+	  <territoryOwner territory="Pyatigorsk" owner="USSR"/>
+	  <territoryOwner territory="Poti" owner="USSR"/>
+	  <territoryOwner territory="Tiflis" owner="USSR"/>
+	  <territoryOwner territory="Yerevan" owner="USSR"/>
+	  <territoryOwner territory="Ganja" owner="USSR"/>
+	  <territoryOwner territory="Baku" owner="USSR"/>
+	  <territoryOwner territory="Tabriz" owner="USSR"/>
+	  <territoryOwner territory="Ardabil" owner="USSR"/>
+	  <territoryOwner territory="Zanjan" owner="USSR"/>
+	  <territoryOwner territory="Makhachkala" owner="USSR"/>
+	  <territoryOwner territory="Grozny" owner="USSR"/>
+	  <territoryOwner territory="Aktau" owner="USSR"/>
+      <territoryOwner territory="Astrakhan" owner="USSR"/>
+	  <territoryOwner territory="Yenotayevka" owner="USSR"/>
+      <territoryOwner territory="Isatay" owner="USSR"/>
+      <territoryOwner territory="Akkystau" owner="USSR"/>
+	  <territoryOwner territory="Guryev" owner="USSR"/>
+	  <territoryOwner territory="Orenburg" owner="USSR"/>
+	  <territoryOwner territory="Chapayevsk" owner="USSR"/>
+	  <territoryOwner territory="Volzhskiy" owner="USSR"/>
+      <territoryOwner territory="Balashov" owner="USSR"/>
+	  <territoryOwner territory="Saratov" owner="USSR"/>
+	  <territoryOwner territory="Syzran" owner="USSR"/>
+	  <territoryOwner territory="Ufa" owner="USSR"/>
+	  <territoryOwner territory="Kuybyshev" owner="USSR"/>
+	  <territoryOwner territory="Penza" owner="USSR"/>
+	  <territoryOwner territory="Kamenka" owner="USSR"/>
+	  <territoryOwner territory="Morshansk" owner="USSR"/>
+	  <territoryOwner territory="Saransk" owner="USSR"/>
+	  <territoryOwner territory="Cheboksary" owner="USSR"/>
+	  <territoryOwner territory="Ulyanovsk" owner="USSR"/>
+	  <territoryOwner territory="Ryazan" owner="USSR"/>
+	  <territoryOwner territory="Vladimir" owner="USSR"/>
+	  <territoryOwner territory="Kirov" owner="USSR"/>
+	  <territoryOwner territory="Orshanka" owner="USSR"/>
+	  <territoryOwner territory="Kazan" owner="USSR"/>
+	  <territoryOwner territory="Yekaterinburg" owner="USSR"/>
+	  <territoryOwner territory="Perm" owner="USSR"/>
+	  <territoryOwner territory="Izhevsk" owner="USSR"/>
+	  <territoryOwner territory="Baltasi" owner="USSR"/>
+	  <territoryOwner territory="Igra" owner="USSR"/>
+	  <territoryOwner territory="Novouralsk" owner="USSR"/>
+	  <territoryOwner territory="Pervouralsk" owner="USSR"/>
+	  <territoryOwner territory="Velsk" owner="USSR"/>
+	  <territoryOwner territory="Arkhangelsk" owner="USSR"/>
+	  <territoryOwner territory="Mezen" owner="USSR"/>
+	  <territoryOwner territory="Syktyvkar" owner="USSR"/>
+	  <territoryOwner territory="Zuyevka" owner="USSR"/>
+	  <territoryOwner territory="Medvezhka" owner="USSR"/>
+	  <territoryOwner territory="Varanday" owner="USSR"/>
+	  <territoryOwner territory="Vortuka" owner="USSR"/>
+	  <territoryOwner territory="Seyda" owner="USSR"/>
+	  <territoryOwner territory="Falenki" owner="USSR"/>
+	  <territoryOwner territory="Omutninsk" owner="USSR"/>
+	  <territoryOwner territory="Glazov" owner="USSR"/>
+	  <territoryOwner territory="Serebryanka" owner="USSR"/>
+	  <territoryOwner territory="Kirovgrad" owner="USSR"/>
+	  <territoryOwner territory="Kushva" owner="USSR"/>
+	  <territoryOwner territory="Berezniki" owner="USSR"/>
+	  <territoryOwner territory="Serov" owner="USSR"/>
+	  <territoryOwner territory="Salekhard" owner="USSR"/>
+      <territoryOwner territory="Sea Zone 161" owner="USSR"/>
+	  <territoryOwner territory="Sea Zone 155" owner="USSR"/>
+	  <territoryOwner territory="Sea Zone 25" owner="USSR"/>
+	  <territoryOwner territory="Hamburg" owner="Germany"/>
+      <territoryOwner territory="Rhineland" owner="Germany"/>
+      <territoryOwner territory="Stuttgart" owner="Germany"/>
+      <territoryOwner territory="Hanover" owner="Germany"/>
+      <territoryOwner territory="Munich" owner="Germany"/>
+      <territoryOwner territory="Berlin" owner="Germany"/>
+      <territoryOwner territory="Rostock" owner="Germany"/>
+      <territoryOwner territory="Pomerania" owner="Germany"/>
+      <territoryOwner territory="Silesia" owner="Germany"/>
+      <territoryOwner territory="Danzig" owner="Germany"/>
+      <territoryOwner territory="Konigsberg" owner="Germany"/>
+      <territoryOwner territory="Lodz" owner="Germany"/>
+      <territoryOwner territory="Krakow" owner="Germany"/>
+	  <territoryOwner territory="Warsaw" owner="Germany"/>
+	  <territoryOwner territory="Brno" owner="Germany"/>
+      <territoryOwner territory="Prague" owner="Germany"/>
+      <territoryOwner territory="Vienna" owner="Germany"/>
+	  <territoryOwner territory="Salzburg" owner="Germany"/>
+	  <territoryOwner territory="Aarhus" owner="Germany"/>
+      <territoryOwner territory="Copenhagen" owner="Germany"/>
+	  <territoryOwner territory="Oslo" owner="Germany"/>
+	  <territoryOwner territory="Stavanger" owner="Germany"/>
+	  <territoryOwner territory="Bergen" owner="Germany"/>
+	  <territoryOwner territory="Trondheim" owner="Germany"/>
+	  <territoryOwner territory="Rotterdam" owner="Germany"/>
+	  <territoryOwner territory="Amsterdam" owner="Germany"/>
+      <territoryOwner territory="Ardennes" owner="Germany"/>
+      <territoryOwner territory="Antwerp" owner="Germany"/>
+      <territoryOwner territory="Strasbourg" owner="Germany"/>
+      <territoryOwner territory="Reims" owner="Germany"/>
+      <territoryOwner territory="Amiens" owner="Germany"/>
+      <territoryOwner territory="Paris" owner="Germany"/>
+      <territoryOwner territory="Lyon" owner="Germany"/>
+      <territoryOwner territory="Normandy" owner="Germany"/>
+      <territoryOwner territory="Bordeaux" owner="Germany"/>
+      <territoryOwner territory="Limoges" owner="Germany"/>
+      <territoryOwner territory="Toulouse" owner="Germany"/>
+      <territoryOwner territory="Marseille" owner="Germany"/>
+      <territoryOwner territory="Morocco" owner="Germany"/>
+	  <territoryOwner territory="Algiers" owner="Germany"/>
+	  <territoryOwner territory="Oran" owner="Germany"/>	  
+      <territoryOwner territory="Zagreb" owner="Germany"/>	  
+      <territoryOwner territory="Serbia" owner="Germany"/>	  
+	  <territoryOwner territory="Thessaloniki" owner="Germany"/>	  
+	  <territoryOwner territory="Athens" owner="Germany"/>
+      <territoryOwner territory="Crete" owner="Germany"/>
+      <territoryOwner territory="Riga" owner="Germany"/>
+      <territoryOwner territory="Tallinn" owner="Germany"/>
+	  <territoryOwner territory="Narva" owner="Germany"/>
+	  <territoryOwner territory="Novgorod" owner="Germany"/>
+	  <territoryOwner territory="Rezekne" owner="Germany"/>
+	  <territoryOwner territory="Pskov" owner="Germany"/>
+	  <territoryOwner territory="Andreapol" owner="Germany"/>
+	  <territoryOwner territory="Bialystok" owner="Germany"/>
+      <territoryOwner territory="Baranovichi" owner="Germany"/>
+      <territoryOwner territory="Minsk" owner="Germany"/>
+      <territoryOwner territory="Rzhev" owner="Germany"/>
+      <territoryOwner territory="Smolensk" owner="Germany"/>
+      <territoryOwner territory="Orel" owner="Germany"/>
+      <territoryOwner territory="Kursk" owner="Germany"/>
+      <territoryOwner territory="Gomel" owner="Germany"/>
+      <territoryOwner territory="Zhytomyr" owner="Germany"/>
+      <territoryOwner territory="Brest" owner="Germany"/>
+      <territoryOwner territory="Lvov" owner="Germany"/>
+      <territoryOwner territory="Ternopil" owner="Germany"/>
+      <territoryOwner territory="Vinnytsia" owner="Germany"/>
+	  <territoryOwner territory="Mykolaiv" owner="Germany"/>
+      <territoryOwner territory="Kiev" owner="Germany"/>
+	  <territoryOwner territory="Kharkov" owner="Germany"/>
+      <territoryOwner territory="Perekop" owner="Germany"/>
+      <territoryOwner territory="Mariupol" owner="Germany"/>
+	  <territoryOwner territory="Crimea" owner="Germany"/>
+      <territoryOwner territory="Sea Zone 85" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 75" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 77" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 63" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 37" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 11" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 65" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 40" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 126" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 128" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 142" owner="Germany"/>	  
+	  <territoryOwner territory="Sea Zone 125" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 138" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 68" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 89" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 91" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 103" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 105" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 87" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 101" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 114" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 116" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 118" owner="Germany"/>
+	  <territoryOwner territory="Sea Zone 70" owner="Germany"/>
+	  <territoryOwner territory="United States HQ" owner="USA"/>
+	  <territoryOwner territory="Nice" owner="Italy"/>
+      <territoryOwner territory="Milan" owner="Italy"/>
+	  <territoryOwner territory="Trieste" owner="Italy"/>
+	  <territoryOwner territory="Rome" owner="Italy"/>
+	  <territoryOwner territory="Naples" owner="Italy"/>
+      <territoryOwner territory="Salerno" owner="Italy"/>
+      <territoryOwner territory="Sicily" owner="Italy"/>
+	  <territoryOwner territory="Sardinia" owner="Italy"/>
+      <territoryOwner territory="Corsica" owner="Italy"/>
+	  <territoryOwner territory="Dalmatia" owner="Italy"/>
+	  <territoryOwner territory="Montenegro" owner="Italy"/>
+      <territoryOwner territory="Albania" owner="Italy"/>
+      <territoryOwner territory="Larissa" owner="Italy"/>
+	  <territoryOwner territory="Morea" owner="Italy"/>
+	  <territoryOwner territory="Rhodes" owner="Italy"/>
+	  <territoryOwner territory="Annaba" owner="Italy"/>
+      <territoryOwner territory="Tunis" owner="Italy"/>
+      <territoryOwner territory="Tripoli" owner="Italy"/>
+	  <territoryOwner territory="Ghadames" owner="Italy"/>
+      <territoryOwner territory="El Aghelia" owner="Italy"/>
+	  <territoryOwner territory="Benghazi" owner="Italy"/>
+      <territoryOwner territory="Sea Zone 129" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 131" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 133" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 134" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 135" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 140" owner="Italy"/>
+	  <territoryOwner territory="Sea Zone 143" owner="Italy"/>
+	  <territoryOwner territory="Canada HQ" owner="UK"/>
+      <territoryOwner territory="Belfast" owner="UK"/>
+      <territoryOwner territory="Glasgow" owner="UK"/>
+      <territoryOwner territory="Manchester" owner="UK"/>
+      <territoryOwner territory="London" owner="UK"/>
+      <territoryOwner territory="Cardiff" owner="UK"/>
+      <territoryOwner territory="Gibraltar" owner="UK"/>
+      <territoryOwner territory="Malta" owner="UK"/>
+	  <territoryOwner territory="Tobruk" owner="UK"/>
+	  <territoryOwner territory="Bardia" owner="UK"/>
+	  <territoryOwner territory="Sidi Barrani" owner="UK"/>
+	  <territoryOwner territory="El Alamein" owner="UK"/>
+	  <territoryOwner territory="Cairo" owner="UK"/>
+	  <territoryOwner territory="Sinai" owner="UK"/>
+	  <territoryOwner territory="Cyprus" owner="UK"/>
+	  <territoryOwner territory="Jerusalem" owner="UK"/>
+      <territoryOwner territory="Beirut" owner="UK"/>
+      <territoryOwner territory="Latakia" owner="UK"/>
+      <territoryOwner territory="Zor" owner="UK"/>
+      <territoryOwner territory="Damascus" owner="UK"/>
+      <territoryOwner territory="Amman" owner="UK"/>
+      <territoryOwner territory="Ramadi" owner="UK"/>
+      <territoryOwner territory="Mosul" owner="UK"/>
+      <territoryOwner territory="Tikrit" owner="UK"/>
+	  <territoryOwner territory="Baghdad" owner="UK"/>
+	  <territoryOwner territory="Karbala" owner="UK"/>
+	  <territoryOwner territory="Najaf" owner="UK"/>
+	  <territoryOwner territory="Kut" owner="UK"/>
+	  <territoryOwner territory="Basra" owner="UK"/>
+	  <territoryOwner territory="Kuwait" owner="UK"/>
+	  <territoryOwner territory="Hamedan" owner="UK"/>
+	  <territoryOwner territory="Karaj" owner="UK"/>
+	  <territoryOwner territory="Kashan" owner="UK"/>
+	  <territoryOwner territory="Abadan" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 72" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 74" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 61" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 47" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 150" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 151" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 43" owner="UK"/>
+	  <territoryOwner territory="Sea Zone 45" owner="UK"/>	  	  
+	  <territoryOwner territory="Slovakia" owner="Rumania"/>
+	  <territoryOwner territory="Transcarpathia" owner="Rumania"/>
+	  <territoryOwner territory="Hungary" owner="Rumania"/>
+	  <territoryOwner territory="Cluj" owner="Rumania"/>
+      <territoryOwner territory="Timisoara" owner="Rumania"/>
+	  <territoryOwner territory="Craiova" owner="Rumania"/>
+	  <territoryOwner territory="Bucharest" owner="Rumania"/>
+      <territoryOwner territory="Bacau" owner="Rumania"/>
+	  <territoryOwner territory="Varna" owner="Rumania"/>
+	  <territoryOwner territory="Sofia" owner="Rumania"/>
+	  <territoryOwner territory="Kavala" owner="Rumania"/>
+	  <territoryOwner territory="Skopje" owner="Rumania"/>
+	  <territoryOwner territory="Odessa" owner="Rumania"/>
+	  <territoryOwner territory="Sea Zone 154" owner="Rumania"/>
+	  <territoryOwner territory="Sea Zone 158" owner="Rumania"/>
+	</ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="factory" territory="Berlin" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Hamburg" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Rhineland" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Munich" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Konigsberg" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Athens" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Crete" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Tallinn" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Rzhev" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Minsk" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Kiev" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Normandy" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Bordeaux" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Paris" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Hamburg" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Rhineland" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Aarhus" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Oslo" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Oslo" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="bomber" territory="Stavanger" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Antwerp" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Normandy" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Paris" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Zagreb" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Serbia" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Athens" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Crete" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Lodz" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Krakow" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Brest" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Tallinn" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Minsk" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Narva" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Narva" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Novgorod" quantity="5" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Novgorod" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Novgorod" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Andreapol" quantity="3" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Andreapol" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Rzhev" quantity="13" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Rzhev" quantity="4" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Rzhev" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Rzhev" quantity="3" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Smolensk" quantity="5" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Smolensk" quantity="3" owner="Germany"/>
+	  <unitPlacement unitType="bomber" territory="Smolensk" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Orel" quantity="8" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Orel" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Kursk" quantity="6" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Kursk" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Kursk" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Kharkov" quantity="4" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Kharkov" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Kharkov" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Mariupol" quantity="4" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Mariupol" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="fighter" territory="Mariupol" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Perekop" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Perekop" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Crimea" quantity="3" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Crimea" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="bomber" territory="Athens" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Benghazi" quantity="3" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="Tripoli" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="infantry" territory="El Aghelia" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="artillery" territory="Benghazi" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="armour" territory="Benghazi" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 82" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 83" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 95" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 96" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 107" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 108" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 110" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 111" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 120" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 121" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 123" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 124" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 138" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 57" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 58" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 138" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 98" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 99" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 63" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 63" quantity="2" owner="Germany"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 65" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 64" quantity="1" owner="Germany"/>
+	  <unitPlacement unitType="factory" territory="Rome" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="factory" territory="Tripoli" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="factory" territory="Salerno" quantity="1" owner="Italy"/>
+      <unitPlacement unitType="infantry" territory="Lvov" quantity="6" owner="Italy"/>
+	  <unitPlacement unitType="artillery" territory="Lvov" quantity="2" owner="Italy"/>
+	  <unitPlacement unitType="armour" territory="Lvov" quantity="1" owner="Italy"/> 
+	  <unitPlacement unitType="fighter" territory="Lvov" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Dalmatia" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Larissa" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="fighter" territory="Morea" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Tripoli" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="El Aghelia" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="fighter" territory="El Aghelia" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Benghazi" quantity="5" owner="Italy"/>
+	  <unitPlacement unitType="artillery" territory="Benghazi" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="armour" territory="Benghazi" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="bomber" territory="Benghazi" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Rome" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="infantry" territory="Salerno" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 92" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 93" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 129" quantity="2" owner="Italy"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 129" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 140" quantity="2" owner="Italy"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 140" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 140" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 154" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 158" quantity="1" owner="Italy"/>
+	  <unitPlacement unitType="factory" territory="Bucharest" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Zhytomyr" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Kursk" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Kharkov" quantity="2" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Mariupol" quantity="2" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Perekop" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Crimea" quantity="2" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Mykolaiv" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="infantry" territory="Odessa" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 156" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 156" quantity="1" owner="Rumania"/>
+	  <unitPlacement unitType="factory" territory="Moscow" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Leningrad" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Petrozavodsk" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Kuybyshev" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Stalingrad" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Sevastopol" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Poti" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="Baku" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Moscow" quantity="4" owner="USSR"/>
+      <unitPlacement unitType="artillery" territory="Moscow" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Oranienbaum" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Leningrad" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Leningrad" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Petrozavodsk" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Vologda" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Volkhov" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="armour" territory="Volkhov" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Ostashkov" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Ostashkov" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Tikhvin" quantity="5" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Kalinin" quantity="6" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Kalinin" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Kaluga" quantity="5" owner="USSR"/>
+      <unitPlacement unitType="infantry" territory="Tula" quantity="5" owner="USSR"/>
+	  <unitPlacement unitType="armour" territory="Tula" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Orshanka" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Kazan" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Bryansk" quantity="7" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Bryansk" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Kamenka" quantity="4" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Voronezh" quantity="5" owner="USSR"/>
+	  <unitPlacement unitType="fighter" territory="Voronezh" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Pavlovsk" quantity="5" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Rostov" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Rostov" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Kerch" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Sevastopol" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Sevastopol" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Stalingrad" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="artillery" territory="Stalingrad" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Baku" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="armour" territory="Baku" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Kuybyshev" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="fighter" territory="Kuybyshev" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Poti" quantity="3" owner="USSR"/>
+	  <unitPlacement unitType="infantry" territory="Akkystau" quantity="2" owner="USSR"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 25" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 25" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 25" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 155" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 155" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 161" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 161" quantity="1" owner="USSR"/>
+      <unitPlacement unitType="transport" territory="Sea Zone 164" quantity="1" owner="USSR"/>	
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 164" quantity="1" owner="USSR"/>
+	  <unitPlacement unitType="factory" territory="United States HQ" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="infantry" territory="United States HQ" quantity="9" owner="USA"/>
+	  <unitPlacement unitType="artillery" territory="United States HQ" quantity="3" owner="USA"/>
+	  <unitPlacement unitType="armour" territory="United States HQ" quantity="2" owner="USA"/>
+	  <unitPlacement unitType="fighter" territory="United States HQ" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="bomber" territory="United States HQ" quantity="2" owner="USA"/>
+	  <unitPlacement unitType="fighter" territory="London" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="infantry" territory="London" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 67" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 67" quantity="1" owner="USA"/>
+	  <unitPlacement unitType="factory" territory="Canada HQ" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="London" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="Manchester" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="Gibraltar" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="Malta" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="Tobruk" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="factory" territory="Cairo" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Canada HQ" quantity="7" owner="UK"/>
+	  <unitPlacement unitType="artillery" territory="Canada HQ" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="armour" territory="Canada HQ" quantity="3" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Glasgow" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Manchester" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="London" quantity="4" owner="UK"/>
+	  <unitPlacement unitType="artillery" territory="London" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="armour" territory="London" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="fighter" territory="London" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="bomber" territory="London" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Gibraltar" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Malta" quantity="3" owner="UK"/>
+	  <unitPlacement unitType="bomber" territory="Malta" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Tobruk" quantity="5" owner="UK"/>
+	  <unitPlacement unitType="artillery" territory="Tobruk" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="armour" territory="Tobruk" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Bardia" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="infantry" territory="Cairo" quantity="4" owner="UK"/>
+	  <unitPlacement unitType="artillery" territory="Cairo" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="armour" territory="Cairo" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="fighter" territory="Cairo" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 42" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 42" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 42" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="submarine" territory="Sea Zone 35" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 61" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 61" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 74" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 74" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 74" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 60" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="carrier" territory="Sea Zone 60" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="fighter" territory="Sea Zone 60" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="cruiser" territory="Sea Zone 150" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="carrier" territory="Sea Zone 150" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="fighter" territory="Sea Zone 150" quantity="2" owner="UK"/>
+	  <unitPlacement unitType="transport" territory="Sea Zone 150" quantity="1" owner="UK"/>
+	  <unitPlacement unitType="destroyer" territory="Sea Zone 150" quantity="2" owner="UK"/>	  
+	</unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Germany" resource="PUs" quantity="0"/>
+	  <resourceGiven player="Italy" resource="PUs" quantity="0"/>
+	  <resourceGiven player="Rumania" resource="PUs" quantity="0"/>
+	  <resourceGiven player="USSR" resource="PUs" quantity="0"/>
+	  <resourceGiven player="USA" resource="PUs" quantity="0"/>
+	  <resourceGiven player="UK" resource="PUs" quantity="0"/>     
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Germany bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Italy bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+	<property name="Rumania bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+	<property name="USSR bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="USA bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property> 
+	<property name="UK bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>                      
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Triggers" value="true" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Unconditional Surrender" value="true" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Control Sea Zone Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Previous Units Fight" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="LHTR Carrier production rules" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="1"/>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Restrictions" value="true" editable="false">
+      <boolean/>
+    </property>
+	<property name="Air Battle Rounds" value="-1" editable="false">
+	  <number min="-1" max="10"/>
+	</property>
+	<property name="Land Battle Rounds" value="1" editable="false">
+	  <number min="-1" max="10"/>
+	 </property>
+	<property name="Sea Battle Rounds" value="-1" editable="false">
+	  <number min="-1" max="10"/>
+	</property>	  
+    <property name="Contested Territories Produce No Income" value="true" editable="false">
+	  <boolean/>
+	</property>
+    <property name="Allow Movement From Contested To Contested" value="false" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Allow Movement From Contested To Player Owned" value="false" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Allow Movement From Contested To Allied Owned" value="false" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Allow Movement From Contested To Enemy Owned" value="false" editable="false">
+	  <boolean/>
+	</property>
+    <property name="Allow Movement From Contested To Territory With Own Units" value="false" editable="false">
+	  <boolean/>
+	</property>
+	<property name="Contested Territory Movement Restricted" value="true" editable="false">
+	  <boolean/>
+	</property>	
+	<property name="Use Fuel Cost" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
+      <boolean/>
+    </property>
+	<property name="neutralCharge" value="9999999"/>
+    <property name="Neutrals Are Impassable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="mapName" value="aggression_1942" editable="false"/>
+    <property name="notes">
+      <value><![CDATA[		
+		    Aggression 1942 Version 1.
+		<br>
+		<br>*Follows v3 type rules.
+		<br>
+		<br>*Only 1 battle rounds.
+		<br>
+		<br>*Units have 1 upkeep and movement costs.
+		<br>
+		<br>*Factory and aaGuns are destroyed when captured.
+		<br>
+		<br>*Victory is achieved by controlling 5 capitals.
+		<br>
+		<br>*Balance hasn't extensively tested yet. Still in progres.
+		<br>
+		<br><i>by Navalland
+		<br>
+		<br></i>			  
+			]]></value>
+    </property>
+  </propertyList>
+</game>
