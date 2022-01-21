@@ -1828,14 +1828,14 @@
       <option name="isImpassable" value="true"/>
     </attachment>				
 	<attachment name="territoryAttachment" attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
+      <option name="production" value="10"/>
 	  <option name="capital" value="USSR"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Oranienbaum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Leningrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="5"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Petrozavodsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -1922,7 +1922,7 @@
       <option name="production" value="3"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Baku" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
+      <option name="production" value="10"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Ganja" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1988,13 +1988,13 @@
       <option name="production" value="3"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Ufa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="20"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Kuybyshev" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="30"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Ulyanovsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="20"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Saransk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -2015,13 +2015,13 @@
       <option name="production" value="5"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Kirov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="5"/>
+      <option name="production" value="10"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Orshanka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="20"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Cheboksary" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="20"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Kazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
@@ -2375,13 +2375,13 @@
       <option name="production" value="3"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Malta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="4"/>
+      <option name="production" value="3"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Bardia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="1"/>
+      <option name="production" value="2"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Sidi Barrani" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -2590,7 +2590,7 @@
       <option name="production" value="2"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 70" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="5"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 129" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2615,7 +2615,7 @@
       <option name="production" value="1"/>
     </attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 68" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="10"/>
+      <option name="production" value="5"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 89" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2627,11 +2627,11 @@
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 103" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="20"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 105" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="20"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 87" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2639,19 +2639,19 @@
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 101" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="20"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 114" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 116" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 118" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="30"/>
+      <option name="production" value="10"/>
       <option name="originalOwner" value="USA"/>
 	</attachment>
 	<attachment name="territoryAttachment" attachTo="Sea Zone 43" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
